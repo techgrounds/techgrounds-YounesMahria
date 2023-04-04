@@ -6,10 +6,11 @@ Omgaan met files and directories in powershell met commandos.
 
 ## Opdracht
 -Find out your current working directory.
+
 -Make a listing of all files and directories in your home directory.
 -Within your home directory, create a new directory named ‘techgrounds’.
--Within the techgrounds directory, create a file containing some text.
--Move around your directory tree using both absolute and relative paths.
+-Within the techgrounds directory, create a file containing some text.-Move around your directory tree using both absolute and relative paths.
+-a
 
 ### Gebruikte bronnen
 https://kinsta.com/blog/linux-commands/
