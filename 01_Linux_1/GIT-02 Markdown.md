@@ -1,4 +1,4 @@
-# [Markdown]
+# Markdown
 Leren om markdown te gebruiken in github.
 
 ## Key-terms

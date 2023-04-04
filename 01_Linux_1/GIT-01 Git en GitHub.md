@@ -1,4 +1,4 @@
-# [GIT-01 Git en GitHub]
+# [=GIT-01 Git en GitHub
 Introductie van Git en Github om de termen te leren kennen en omgaan met de repository
 
 ## Key-terms
