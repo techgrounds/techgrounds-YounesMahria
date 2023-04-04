@@ -1,5 +1,5 @@
 # LNX-01 Setting Up
-Het kunnen inloggen op een SSH connection.
+Het kunnen inloggen op een SSH connection.  
 
 ## Key-terms
 **SSH:** Secure Shell is een network protocol bedoeld om gebruikers een beveiligd connection maken naaren toegang te kunnen krijgen bij een computer met onbeveiligd network.
@@ -17,5 +17,4 @@ Permission Denied tijdens het inloggen. De command op terminal was niet volledig
 2) ssh -i .\Nest-Yo-Mahria.pem younes@18.157.179.30 -p 52211
 
 ### Resultaat
-![Ingelogd](/00_includes/LNX-01%20ingelog.png "title")
-
+![resultaat](/00_includes/LNX-01-resultaat.png "resultaat")
