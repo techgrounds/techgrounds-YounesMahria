@@ -1,15 +1,30 @@
 # LNX-04 Users and groups
-[Geef een korte beschrijving van het onderwerp]
+Nieuwe gebruiker aanmaken in admin group, password en sudo.
 
 ## Key-terms
-[Schrijf hier een lijst met belangrijke termen met eventueel een korte uitleg.]
+**sudo** Een admin taak te kunnen uitvoeren hierbij moet je wachtwoord ook geven ter controlere.
+**adduser** Een nieuwe gebruiker toevoegen.
+**usermod** Het wijzing van een gebruiker toestemmingen.
 
 ## Opdracht
+-Create a new user in your VM. 
+>The new user should be part of an admin group.
+>The new user should have a password.
+>The new user should be able to use ‘sudo’
+
+sudo adduser techgrounds
+sudo usermod -aG sudo techgrounds
+id techgrounds
+
+-Locate the files that store users, passwords, and groups. See if you can find your newly created user’s data in there.
+cat /etc/passwd
+
 ### Gebruikte bronnen
-[Plaats hier de bronnen die je hebt gebruikt.]
+https://www.cyberciti.biz/faq/add-new-user-account-with-admin-access-on-linux/
 
 ### Ervaren problemen
-[Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
+Vergeet soms sudo op begin te zetten nadat ik lees hoe ik de commandos moet uitvoeren.
 
 ### Resultaat
-[Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).]
+![resultaat](/00_includes/LNX-04-resultaat.png "resultaat")
+![resultaat2](/00_includes/LNX-04-resultaat2.png "resultaat2")
