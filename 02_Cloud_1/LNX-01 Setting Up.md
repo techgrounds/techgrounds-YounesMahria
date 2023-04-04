@@ -12,4 +12,5 @@
 [Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
 
 ### Resultaat
+![Ingelogd](/00_includes/LNX-01%20ingelog.png "title")
 [Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).]
