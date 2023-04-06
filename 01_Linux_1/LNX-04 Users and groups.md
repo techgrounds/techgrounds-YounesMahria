@@ -13,7 +13,8 @@ Een nieuwe gebruiker toevoegen.
 Het wijzing van een gebruiker toestemmingen.
 
 
-## Opdracht  
+## Opdracht
+
 ### Create a new user in your VM. 
 >The new user should be part of an admin group.
 >The new user should have a password.
@@ -40,5 +41,4 @@ https://www.cyberciti.biz/faq/add-new-user-account-with-admin-access-on-linux/
 Vergeet soms sudo op begin te zetten nadat ik lees hoe ik de commandos moet uitvoeren.
 
 ### Resultaat
-
-
+Een nieuwe gebruiker kunnen toevoegen.

@@ -29,14 +29,19 @@ Verwijst de output om het te schrijven naar een bestand, als de bestand al besta
 Verwijst de output om het te schrijven naar een bestand als toevoeging vanaf de nieuwe regel, als de bestand niet bestaat wordt het als nieuw gemaakt.
 
 ### grep  
-het filtert en zoekt de opgeven worden in je tekst bestand.
+Het filtert en zoekt de opgeven worden in je tekst bestand.
 
-### stdin  
+### stdin  (Standard Input)   
+De file handle dat de invoeringen van een commando leest zodat het weet wat het moet doen.
 
-### stdout  
+### stdout  (Standard Output)
+Jouw process schrijft de output naar de file handle.
 
+### stderr  (Standard Error)  
+Jouw process schrijf de diagnostisch output naar de file handle
 
 ## Opdracht  
+
 ### Use the echo command and output redirection to write a new sentence into your text file using the command line. The new sentence should contain the word ‘techgrounds’.
 
 
@@ -72,8 +77,10 @@ grep "techgrounds" test.txt > techgrounds.txt
 https://linuxize.com/post/bash-write-to-file/
 https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/
 https://blog.devops.dev/bash-commands-101-a-beginners-guide-to-the-linux-command-line-interface-d8a379f41bf
+https://stackoverflow.com/questions/3385201/confused-about-stdin-stdout-and-stderr
 
 ### Ervaren problemen  
 De juiste commands vinden en gebruiken.   
 
 ### Resultaat
+Nieuwe bestanden maken en dan of alles wissen met een nieuwe tekst of het toevegen. Het kunnen filteren en vinden van het opgeven woord.

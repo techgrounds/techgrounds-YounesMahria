@@ -12,6 +12,7 @@ Een Process IDentification wordt gebruikt om elke process in je system te kunnen
 internet service daemon die telnet gebruikt voor Linux Ubuntu omgeving. Het is een communicatie middel tussen de verbonden apparateren.
 
 ## Opdracht
+
 ### Start the telnet daemon.  
 ```
 sudo apt install telnetd -y 
@@ -63,10 +64,4 @@ Kan geen verbinden maken met telnet.
 Op Dinsdag zeer late op middag was had ik het verkeerd gedaan door het uitloggen van mij ssh en verbinding wou maken met telnet. Op Woensdag had ik get gewoon op mijn linux ternimal geinstalleerd en dat was alles nodig om de opdracht goed te kunnen makken.
 
 ### Resultaat
-
-
-
-////Soft Skills///
-Waar ik tegenaanliep?
-
-Wat was de oplossing?
+Er achter komen dat de ze niet de zelfde namen bevant tussen package en process naam. Hierbij is telnet de package naam terwijl het inteld als process name gebruikt. Er kunnen achter wat de PID is voor de programma.

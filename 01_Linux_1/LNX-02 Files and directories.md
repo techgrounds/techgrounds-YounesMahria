@@ -19,6 +19,7 @@ het maken of weergeven van een file.
 Nagiveren door je mappen.  
 
 ## Opdracht
+
 ### Find out your current working directory.  
 ```
 ~
@@ -54,4 +55,5 @@ https://kinsta.com/blog/linux-commands/
 Geen
 
 ### Resultaat
+Een nieuwe folder 'techgrounds' kunnen aanmaken en open gemaakt met **cd** command. Het kunnen lezen van een bestand met **cat**
 ![resultaat](/00_includes/LNX-02-resultaat.png "resultaat")

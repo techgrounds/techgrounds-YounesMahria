@@ -125,5 +125,8 @@ https://phoenixnap.com/kb/linux-tail
 Voor de crontab dacht ik eerste dat het elke minute was 1 * * * * door dat in te vullen. Tijdens deze mindset ging ik het hard op lezen toen heb ik gemerkt dat ik het verkeerd had gelezen. Ook moest ik de path correct zetten omdat het niet last vanaf de script voor de crontab.  
 
 ### Resultaat  
-
+Het kunnen invoeren van taken op schema. Eerst controleren dat ze werken met Bash command en  daarna Path aangepast zodat het ook in crontab kon vinden.
+- Elke minuut de dag en tijd noteren naar een bestand.
+- Elke week opslag ruimte noteren naar een bestand.
+	- Had het eerste op elke minute getested.
   

@@ -11,6 +11,7 @@ Secure Shell is een network protocol bedoeld om gebruikers een beveiligd connect
 ### Make an SSH-connection to your virtual machine. SSH requires the key file to have specific permissions, so you might need to change those.
 *When the connection is successful, type whoami in the terminal. This command should show your username.
 ![resultaat](/00_includes/LNX-01-resultaat.png "resultaat")
+
 ### Gebruikte bronnen
 Techgrounds Pathways van de cloud opdracht.
 
@@ -22,4 +23,4 @@ ssh -i .\Nest-Yo-Mahria.pem younes@18.157.179.30 -p 52211
 ```
 
 ### Resultaat
-De opstart scherm van Ubuntu is gekomen en whoiam heeft een output laten zien.
+Het kunnen inloggen op een SSH connection. De opstart scherm van Ubuntu is gekomen en whoiam heeft een output laten zien.

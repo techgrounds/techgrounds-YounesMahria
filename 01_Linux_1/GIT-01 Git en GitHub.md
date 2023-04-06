@@ -26,6 +26,7 @@ Het zelfde als Branch alleen dat je het doet voor een teamgenoot.
 
 
 ## Opdracht
+
 ## Maak een github account aan  
 - Github account had ik al!
 
@@ -39,4 +40,4 @@ https://github.com/techgrounds/git-github-fundamentals-YounesMahria
 Opnieuwe lezen om de kleine verschillen goed te kunnen onderscheiden.
 
 ### Resultaat
-Deze document
+De betekenis van verschilenden termen op github en ze goed kunnen onderscheiden.

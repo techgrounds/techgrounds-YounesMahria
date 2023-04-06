@@ -74,9 +74,11 @@ Een table maken ervan
 
 
 ### WYSIWYG vs WYSIWYM  
-What You See Is What You Mean (WYSIWYM)  
-What You See Is What You Get (WYSIWYG) 
+##### What You See Is What You Mean (WYSIWYM)  
+Je moet zelfstandige de layout aangeven met de speciale codes die je uit de hoofd zou moeten kennen of met een markdown cheatsheet. Je moet echter het zelf schrijven om het te kunnen krijgen. 
 
+##### What You See Is What You Get (WYSIWYG) 
+Gebruikers vriendelijke manier voor de layout waarbij je geen zorgen hoef te maken met de special codes op je tekst. Denk hierbij aan andere applicaties zoals wordpress die de layout voor je maken.
 
 ### Gebruikte bronnen
 https://devhints.io/markdown

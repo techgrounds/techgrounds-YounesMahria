@@ -96,7 +96,7 @@ https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/
 Tussenstap vergeten bij chmod om te vertellen voor welke groepen het geldt.
 
 ### Resultaat
-
+Het kunnen wijzigen van permissions voor gebruikers, groepen en andere. Kijken naar de permissions voor elke file en folder met **ls** 
 
 
 

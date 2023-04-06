@@ -1,9 +1,19 @@
 # LNX-07 Bash scripting  
-Werken met verschilden Bash scripts
+Het maken van verschildende Bash scripts.
 
 ## Key-terms
-**export** Het aanpassing van variables
-**bash** 
+
+### export  
+Het aanpassing en doorgeven van variables en functies naar een child process zonder dat het invloed heeft op andere processes.
+
+### Values  
+De waarde maken, aanpassen en opslaan ervan. Hieruit kan het lezen wat is opgeslagen zoals
+`$tux = "A certain mascout name that you might know of"`  
+Je kan elke benaming geven die je wilt maar voor Linux maakt het niets uit. Voor de mensen zou het lastig zijn wat je bedoelt met `$auto` als je voorbeeld aantal km gereden daarin opslaat of hoe lang je pc aan staat.
+
+### Conditions
+De voorwaarden aangeven wat het moet doen in de opgegeven stelling. De stelling kan alleen maar 1 voorwaarde uitvoeren of 0 voorwaarde. De overige voorwaarde worden niet gelezen zodra de eerste voorwaarde match is gemaakt in de stelling. 
+
 
 ## Opdracht
 
@@ -22,7 +32,6 @@ export PATH=$PATH:/home/younes/scripts/
 ### Create a script that appends a line of text to a text file whenever it is executed.
 
 Voordat ik nano ging gebruiken had ik de ***cat*** methode hieronder gebruikt:
-
 ```
 cat <<"EOF"> script.sh
 script 
@@ -32,7 +41,6 @@ EOF
 ```
 
 Deze script geschreven zodat je steeds een nieuwe tekst kan schrijven.
-
 ```
 cat <<"EOF"> AppendsNewLine.sh
 #!/bin/bash
@@ -45,7 +53,6 @@ EOF
 ```
 
 Had later door dat ik voor mijzelf te moeijlijke maakte en gewoon dit kon doen.
-
 ```
 cat <<"EOF"> AppendsNewLine.sh
 #!/bin/bash
@@ -86,7 +93,8 @@ EOF
 ```
 
 ![resultaat](/00_includes/LNX-07-resultaat2.png "resultaat")
------------------------------------
+
+----
 
 ### Variables:
 You can assign a value to a string of characters so that the value can be read somewhere else in the script.
@@ -121,13 +129,13 @@ cat rngStoreOutput.txt
 
 -----------------------------------
 
-Conditions:
+### Conditions:
 You can choose to only run parts of your script if a certain condition is met. For example, only read a file if the file exists, or only write to a log if the health check returns an error. This can be done using conditions.
 
 A check for a condition can be done using ‘if’, ‘elif’, and/or ‘else’.
 
 
--Exercise 3:
+### Exercise 3:
 Create a script that generates a random number between 1 and 10, stores it in a variable, and then appends the number to a text file only if the number is bigger than 5. If the number is 5 or smaller, it should append a line of text to that same text file instead.
 
 
@@ -177,16 +185,21 @@ https://linuxhint.com/compare-numbers-bash/
 
 
 
-
-
-
-
 ### Ervaren problemen
-Een script kunnen scrhijven in de terminal was nieuwe voor mij. 
-De eerste was vim maar die deed het niet goed,
-De andere was nano wat veel beter is en juist editor voor doeleindine.
-Wel heb ik kunnen vinden dat ik ook met de command 'cat <<"EOF"> 'regels tekst' EOF' het ook mogelijke is met copy pasting.
+Een script kunnen scrhijven in de terminal was nieuwe voor mij.   
+De eerste was vim maar die deed het niet goed,  
+De andere was nano wat veel beter is en de betere editor is.  
+Wel heb ik nog steeds vinden dat ik ook met deze commando ging doen. 
+```
+cat <<"EOF"> script.sh
+'regels tekst' 
+EOF
+```
 
 ### Resultaat
-
+Scripts kunnen schrijven in een linux omgeving met verschilden resultaten.
+- Een nieuwe tekst toevoegen in een bestand.
+- Httpd installeren, activeren en status laten zien.
+- Een automatisch een nummer kiezen tussen 1-10 kiezen en het schrijven in een bestand.
+	- Toeveging van het controleren van de uitkomst. Bij 5 of lager wordt het number geschrijven en bij hoger dan 5 wordt een tekst geschreven.
 

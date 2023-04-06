@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Linux_1/LNX-08 Cron jobs.md",
+                "file": "01_Linux_1/NTW-01 OSI stack.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Linux_1/LNX-08 Cron jobs.md",
+                "file": "01_Linux_1/NTW-01 OSI stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_Linux_1/LNX-08 Cron jobs.md",
+                "file": "01_Linux_1/NTW-01 OSI stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Linux_1/LNX-08 Cron jobs.md"
+                "file": "01_Linux_1/NTW-01 OSI stack.md"
               }
             }
           }
@@ -146,19 +146,64 @@
       "command-palette:Open command palette": false
     }
   },
+  "floating": {
+    "id": "1db7228bb196af95",
+    "type": "floating",
+    "children": [
+      {
+        "id": "2b85267039c86642",
+        "type": "window",
+        "children": [
+          {
+            "id": "6e496b33456cbe25",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9d804188e6ec1004",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "00_templates/opdracht.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 256,
+        "y": 12,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "eac55460344063c4",
   "lastOpenFiles": [
-    "01_Linux_1/LNX-03 Working with text (CLI).md",
-    "01_Linux_1/LNX-01 Setting Up.md",
-    "01_Linux_1/LNX-02 Files and directories.md",
-    "01_Linux_1/GIT-02 Markdown.md",
-    "01_Linux_1/LNX-08 Cron jobs.md",
-    "01_Linux_1/LNX-05 File permissions.md",
+    "01_Linux_1/NTW-02 Network Devices.md",
+    "01_Linux_1/NTW-06 Subnetting.md",
+    "01_Linux_1/NTW-03 Protocols.md",
+    "01_Linux_1/NTW-04 Counting in binary.md",
+    "01_Linux_1/NTW-05 IP Addressing.md",
+    "00_templates/opdracht.md",
+    "01_Linux_1/opdracht - kopie (5).md",
+    "01_Linux_1/NTW-01 OSI stack.md",
     "01_Linux_1/LNX-07 Bash scripting.md",
-    "00_includes/LNX-08-resultaat3.png",
-    "01_Linux_1/GIT-01 Git en GitHub.md",
     "01_Linux_1/LNX-06 Processes.md",
     "01_Linux_1/LNX-04 Users and groups.md",
+    "01_Linux_1/LNX-02 Files and directories.md",
+    "01_Linux_1/LNX-03 Working with text (CLI).md",
+    "01_Linux_1/LNX-01 Setting Up.md",
+    "01_Linux_1/LNX-05 File permissions.md",
+    "01_Linux_1/LNX-08 Cron jobs.md",
+    "01_Linux_1/GIT-02 Markdown.md",
+    "01_Linux_1/GIT-01 Git en GitHub.md",
+    "00_includes/LNX-08-resultaat3.png",
     "00_includes/LNX-03-resultaat3.png",
     "00_includes/LNX-03-resultaat2.png",
     "00_includes/LNX-04-resultaat.png",
@@ -167,7 +212,6 @@
     "00_includes/LNX-06-resultaat3.png",
     "00_includes/LNX-06-resultaat2.png",
     "00_includes/GIT-01-resultaat.png",
-    "02_Cloud_1/opdracht.md",
-    "00_templates/opdracht.md"
+    "02_Cloud_1/opdracht.md"
   ]
 }
