@@ -2,6 +2,7 @@
 Permissions op files aanpassen.
 
 ## Key-terms
+	
 ### ls -l  
 [filename] Weergeeft permissions voor de file.
 

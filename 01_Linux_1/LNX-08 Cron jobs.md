@@ -4,9 +4,13 @@ Het toevoegen van taken die je crontab zet.
 ## Key-terms
 
 ### **Cron Jobs**  
+Een Linux taken schema die script moet gaan uitvoeren op specifieke tijden en dagen.
 
 ### **Crontab**    
-Lijst met schemas voor de taken die automatische worden uitgevoerd.  
+Het beheren van de takenschemas waarbij je aangeeft de tijden en dagen, opties en verwijzen naar de script path.  
+
+### tail
+Het volgt en laat live updates zien op de geselecteerde file die je aangeeft. Zo kun je beter zien wanneer de output veranderd.
 
 ## Opdracht
 
@@ -28,6 +32,7 @@ readlink -f CurrentDaT.sh
 readlink -f CurrentDaTOutput.txt  
 ```
 
+De outputs zijn:  
 /home/younes/scripts/CurrentDaT.sh  
 /home/younes/scripts/CurrentDaTOutput.txt  
 
@@ -64,12 +69,14 @@ tail -f /home/younes/scripts/CurrentDaTOutput.txt
 
 ### Create a script that writes available disk space to a log file in ‘/var/log’. Use a cron job so that it runs weekly.  
 
+In ternimal gedaan om te kijken dat er geen synta errors waren.
 ```
 df -h --total|grep ^total  
 df -h /  
 echo "Avaible Space Left  $(df -h / --output=used,avail,size,pcent) as of $(date)" >> /var/log/DiskSpace.log  
 ```
 
+De script voor **DiskSpaceLog.sh**
 ```
 cat <<"EOF"> DiskSpaceLog.sh  
 #!/bin/bash  
@@ -77,23 +84,32 @@ echo "Avaible Space Left:$(df -h / --output=avail | tail -1) as of $(date)" >> /
 EOF
 ```
 
+Vanwege de locatie voor de output file is het belangrijk om sudo erbij te zetten.
 ```
 sudo bash DiskSpaceLog.sh  
+```
+
+Deze heb ik bij 2de ternimal ingevoert om het live te kunnen volgen.
+```
 tail -f /var/log/DiskSpaceLog.log  
 ```
 
+Terug naar crontab
+```
+crontab -e
+```
 
 Testing voor elke minute om te kijken of het werkt eerst.
 ```
 * * * * * sudo /home/younes/scripts/DiskSpaceLog.sh 
 ```
+
 ![resultaat](/00_includes/LNX-08-resultaat2.png "resultaat")
 
-De script werkt voor elke minute en daarna weer aangepast om elke Maandag om 12:00 
+De script werkt voor elke minute en daarna weer aangepast om elke Maandag om 12:00.
 ```
 0 12 * * 1 sudo /home/younes/scripts/DiskSpaceLog.sh  
 ```
-
 
 
 ### Gebruikte bronnen  
@@ -103,8 +119,7 @@ https://crontab.guru/
 https://www.baeldung.com/linux/cron-jobs-path  
 https://www.redhat.com/sysadmin/linux-df-command  
 https://www.hostinger.com/tutorials/vps/how-to-check-and-manage-disk-space-via-terminal  
-
-
+https://phoenixnap.com/kb/linux-tail
 
 ### Ervaren problemen  
 Voor de crontab dacht ik eerste dat het elke minute was 1 * * * * door dat in te vullen. Tijdens deze mindset ging ik het hard op lezen toen heb ik gemerkt dat ik het verkeerd had gelezen. Ook moest ik de path correct zetten omdat het niet last vanaf de script voor de crontab.  
