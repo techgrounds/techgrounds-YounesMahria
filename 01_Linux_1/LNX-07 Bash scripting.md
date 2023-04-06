@@ -21,7 +21,15 @@ export PATH=$PATH:/home/younes/scripts/
 
 ### Create a script that appends a line of text to a text file whenever it is executed.
 
-! Ik had 'cat <<"EOF"> EOF' gebruikt voordat ik nano deed.  
+Voordat ik nano ging gebruiken had ik de ***cat*** methode hieronder gebruikt:
+
+```
+cat <<"EOF"> script.sh
+script 
+of 
+tekst
+EOF'
+```
 
 Deze script geschreven zodat je steeds een nieuwe tekst kan schrijven.
 
@@ -83,11 +91,13 @@ EOF
 ### Variables:
 You can assign a value to a string of characters so that the value can be read somewhere else in the script.
 Assigning a variable is done using ‘=’.
-Reading the value of a variable is done using ‘$<insert variable name here>’.
+Reading the value of a variable is done using 
+```
+‘$<insert variable name here>’.
+```
 
 ### Exercise 2:
 Create a script that generates a random number between 1 and 10, stores it in a variable, and then appends the number to a text file.
-
 
 ```
 cat <<"EOF"> rngStore.sh
@@ -99,13 +109,14 @@ echo $numberOutcome
 echo $numberOutcome > rngStoreOutput.txt
 EOF
 ```
-
 De excutable toestemming geven voor de file en daarna de script starten met bash daarna de output lezen.
+
 ```
 chmod +x rngStore.sh
 bash rngStore.sh
 cat rngStoreOutput.txt
 ```
+
 ![resultaat](/00_includes/LNX-07-resultaat3.png "resultaat")
 
 -----------------------------------

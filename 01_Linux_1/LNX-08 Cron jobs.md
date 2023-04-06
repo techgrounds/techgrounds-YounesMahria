@@ -18,7 +18,11 @@ cat <<"EOF"> CurrentDaT.sh
 echo $(date) >> /home/younes/scripts/CurrentDaTOutput.txt  
 EOF  
 ```
+
+
+```
 *echo $(date +"%D %T") > $HOME/datetime.txt*
+```
 -------------------------------  
 
 ### Register the script in your crontab so that it runs every minute.    
@@ -37,15 +41,17 @@ crontab -e
 
 
 ```
+
 Crontab opstarten
 ```
 crontab -e  
 ```
 
+Elke minute de huidige tijd automatisch schrijven naar de CurrentDaTOutput.txt
 ```
 * * * * * /home/younes/scripts/CurrentDaT.sh  
 ```
-
+![resultaat](/00_includes/LNX-08-resultaat.png "resultaat")
 -------------------------------  
 
 
@@ -74,8 +80,9 @@ Testing voor elke minute om te kijken of het werkt eerst.
 ```
 * * * * * sudo /home/younes/scripts/DiskSpaceLog.sh 
 ```
+![resultaat](/00_includes/LNX-08-resultaat2.png "resultaat")
 
-De script werkt en daarna weer aangepast om elke Maandag om 12:00
+De script werkt voor elke minute en daarna weer aangepast om elke Maandag om 12:00 
 ```
 0 12 * * 1 sudo /home/younes/scripts/DiskSpaceLog.sh  
 ```
@@ -99,5 +106,5 @@ https://www.hostinger.com/tutorials/vps/how-to-check-and-manage-disk-space-via-t
 Voor de crontab dacht ik eerste dat het elke minute was 1 * * * * door dat in te vullen. Tijdens deze mindset ging ik het hard op lezen toen heb ik gemerkt dat ik het verkeerd had gelezen. Ook moest ik de path correct zetten omdat het niet last vanaf de script voor de crontab.  
 
 ### Resultaat  
-![resultaat](/00_includes/LNX-08-resultaat.png "resultaat")  
-![resultaat](/00_includes/LNX-08-resultaat2.png "resultaat")  
+
+  

@@ -1,57 +1,92 @@
 # Markdown
 Leren om markdown te gebruiken in github.
 
-## Key-terms
-Markdown: Je document een style geven door even van deze onderaan te doen.
-
-Headers: Groter letter types.
-
-Emphasis: Italic(scheef), Bold(vetgedruikt), Strikethrough(doorgestreept).
-
-Lists: Een lijst maken
-
-Links: Een tekst maken met een link.
-
-Images: Foto's kunnen weergeven door een link naar het file op je repository of een website.
-
-Code: Aangeven dat het moet gelezen worden als een code.
-
-Horizontal line: een lange lijn in een regel.
-
-Blockquotes: tekste aangeven met aanhalingstekens
-
-Tables: een table maken ervan
-
-
-**WYSIWYG vs WYSIWYM**
-
-What You See Is What You Mean (WYSIWYM)
-
-What You See Is What You Get (WYSIWYG) 
-
 ## Opdracht
-Markdown maken en de betekenis van WYSIWYG vs WYSIWYM.
+Markdown maken en de betekenis van WYSIWYG vs WYSIWYM. Keywords en Opdracht zijn samengevoegd voor het gemak!
 
+## Key-terms
+### Markdown: 
+Je document een style geven door even van deze onderaan te doen.
+
+### Headers:  
+Groter letter types.
 
 # Een level 1 header#
 
 ## Een level 2 header##  
 
-``` Een codeblok ```
 
-**Een bold tekst**
+### Emphasis:   
+`*` *Italic(scheef)* `*`
+`**`**Bold(vetgedruikt)**`**`
+`***`***italic bold.***`***`
+``~~``~~Strikethrough(doorgestreept)~~`~~`
+`code` 
 
-[Een link naar een website](https://devhints.io/markdown)
+### Lists:   
+* Een lijst maken met.
+	* Tab voor extra ruimte aan linkerkant.
+- Kan ook met de -
+	- nog een met tab
+- [ ] Niet checked
+- [x] Checked
+
+
+### Links:   
+Linken naar websites urls [Markdowns](https://devhints.io/markdown)
+Eigenlijke elke url dus ook naar je mappen [Users folder in C schrijf](C:\Users\)
+
+### Images:   
+Foto's kunnen weergeven door een link naar het file op je repository of een website.
+[img]: https://techgrounds.nl/wp-content/uploads/2022/05/TG-logo-300x60.png
+
+### Code:   
+Speciale blok met vergelijkebare terminal achterground om te kunnen zien dat het een code is.
+``` 
+Een codeblok 
+2de regel
+zou error geven als je dit overneemt want het is geen string
+```
+
+
+### Horizontal line:   
+een lange lijn in een regel met 4 van -
+
+----
+
+### Blockquotes: 
+> Tekst met een streep ervoor.
+> > Kan heel
+> > > heeeeel
+> > > > > erg deep gaan
+> > > >dan weer terug
+> > > >terug
+> > > terug
+> >hier stoppen
+
+### Tables:   
+Een table maken ervan
+```markdown
+| Column 1 Heading | Column 2 Heading |
+| ---------------- | ---------------- |
+| Some content     | Other content    |
+```
+
+
+### WYSIWYG vs WYSIWYM  
+What You See Is What You Mean (WYSIWYM)  
+What You See Is What You Get (WYSIWYG) 
 
 
 ### Gebruikte bronnen
 https://devhints.io/markdown
+https://github.com/nothingislost/obsidian-codemirror-options/blob/main/README.md
 
 ### Ervaren problemen
-Als ik 1x enter drukte stond de tekst niet op de volgende regel.
+Als ik 1x enter drukte stond de tekst niet op de volgende regel bij VS Code en daarbij is het zeer vervelend dat ik bij VS Code twee spaceties moet doen en dan pas enter. Bij Obsidian zelfde verhaal alleen kan ik het meer live editen en dat ziet fijner eruit dan side preview van VS Code. 
 
 ### Resultaat
-De opmaak van deze document moet eruit zoals aangeven.
+De opmaak van deze document moet eruit kunnen zien zoals aangeven.
 
 
 
