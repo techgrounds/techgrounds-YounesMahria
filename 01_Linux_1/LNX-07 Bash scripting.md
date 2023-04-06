@@ -1,4 +1,4 @@
-# LNX-07 Bash scripting
+# LNX-07 Bash scripting  
 Werken met verschilden Bash scripts
 
 ## Key-terms
@@ -28,7 +28,7 @@ cat <<"EOF"> script.sh
 script 
 of 
 tekst
-EOF'
+EOF
 ```
 
 Deze script geschreven zodat je steeds een nieuwe tekst kan schrijven.

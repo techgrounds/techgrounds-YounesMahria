@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Linux_1/LNX-03 Working with text (CLI).md",
+                "file": "01_Linux_1/LNX-08 Cron jobs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Linux_1/LNX-03 Working with text (CLI).md",
+                "file": "01_Linux_1/LNX-08 Cron jobs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_Linux_1/LNX-03 Working with text (CLI).md",
+                "file": "01_Linux_1/LNX-08 Cron jobs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Linux_1/LNX-03 Working with text (CLI).md"
+                "file": "01_Linux_1/LNX-08 Cron jobs.md"
               }
             }
           }
@@ -148,20 +148,25 @@
   },
   "active": "eac55460344063c4",
   "lastOpenFiles": [
+    "01_Linux_1/LNX-07 Bash scripting.md",
+    "01_Linux_1/LNX-08 Cron jobs.md",
+    "00_includes/LNX-08-resultaat3.png",
+    "01_Linux_1/LNX-03 Working with text (CLI).md",
     "01_Linux_1/LNX-02 Files and directories.md",
     "01_Linux_1/LNX-01 Setting Up.md",
     "01_Linux_1/GIT-02 Markdown.md",
     "01_Linux_1/GIT-01 Git en GitHub.md",
     "01_Linux_1/LNX-06 Processes.md",
-    "01_Linux_1/LNX-07 Bash scripting.md",
-    "01_Linux_1/LNX-08 Cron jobs.md",
     "01_Linux_1/LNX-05 File permissions.md",
+    "01_Linux_1/LNX-04 Users and groups.md",
+    "00_includes/LNX-03-resultaat3.png",
+    "00_includes/LNX-03-resultaat2.png",
+    "00_includes/LNX-04-resultaat.png",
+    "00_includes/LNX-03-resultaat.png",
     "00_includes/LNX-06-resultaat4.png",
     "00_includes/LNX-06-resultaat3.png",
     "00_includes/LNX-06-resultaat2.png",
-    "01_Linux_1/LNX-03 Working with text (CLI).md",
     "00_includes/GIT-01-resultaat.png",
-    "01_Linux_1/LNX-04 Users and groups.md",
     "02_Cloud_1/opdracht.md",
     "00_templates/opdracht.md"
   ]

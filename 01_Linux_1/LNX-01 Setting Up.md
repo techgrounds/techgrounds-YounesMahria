@@ -1,4 +1,4 @@
-# LNX-01 Setting Up
+# LNX-01 Setting Up  
 Het kunnen inloggen op een SSH connection.  
 
 ## Key-terms

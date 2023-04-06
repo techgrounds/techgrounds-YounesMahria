@@ -1,7 +1,8 @@
-# LNX-02 Files and directories
+# LNX-02 Files and directories  
 Omgaan met files and directories in powershell met commandos.
 
 ## Key-terms
+
 ### ~  
 Je root directory weergeven.  
 

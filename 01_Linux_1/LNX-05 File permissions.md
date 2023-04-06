@@ -1,11 +1,19 @@
-# LNX-05 File permissions
+# LNX-05 File permissions  
 Permissions op files aanpassen.
 
 ## Key-terms
-**ls -l [filename]** Weergeeft permissions voor de file.
-**chmod** Het aanpassen van permissions op de file.
-**chown [user_name] [file_name]** verander de owner voor de file
-**chgrp [group_name] [file_name]** verander de group voor de file
+### ls -l  
+[filename] Weergeeft permissions voor de file.
+
+### chmod   
+Het aanpassen van permissions op de file.
+
+### chown  
+[user_name] [file_name] verander de owner voor de file
+
+### chgrp  
+[group_name] [file_name] verander de group voor de file
+
 
 ## Opdracht
 
@@ -47,10 +55,11 @@ cat lnx05.txt
 (cat: lnx05.txt: Permission denied)
 ```
 
-Nee, kan de file niet meer lezen omdat ik niet aangaf dat het alleen voor de group/everyone else was.
+Nee, kan de file niet meer lezen omdat ik niet aangaf dat het alleen voor de group/everyone else moets zijn.
 
 ![resultaat3](/00_includes/LNX-05-resultaat3.png "resultaat3")
 
+Permissions terug gezet en dit keer duidelijke aangeven dat het niet voo owner moet zijn.
 ```
 chmod +rw lnx05.txt
 chmod go-rw lnx05.txt
@@ -70,6 +79,7 @@ sudo cat lnx05.txt
 ```
 
 ### Change the group ownership of the file to a different group.
+
 ```
 sudo chgrp techgrounds lnx05.txt
 ```
@@ -81,7 +91,7 @@ https://phoenixnap.com/kb/linux-file-permissions
 https://www.pluralsight.com/blog/it-ops/linux-file-permissions
 https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/
 
-### Ervaren problemen
+### Ervaren problemen  
 Tussenstap vergeten bij chmod om te vertellen voor welke groepen het geldt.
 
 ### Resultaat

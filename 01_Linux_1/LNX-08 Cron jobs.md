@@ -1,5 +1,5 @@
 # LNX-08 Cron jobs  
-
+Het toevoegen van taken die je crontab zet.
 
 ## Key-terms
 
@@ -12,34 +12,28 @@ Lijst met schemas voor de taken die automatische worden uitgevoerd.
 
 ### Create a Bash script that writes the current date and time to a file in your home directory.  
 
+De script om de huidige tijd te kunnen krijgen
 ```
 cat <<"EOF"> CurrentDaT.sh  
 #!/bin/bash  
-echo $(date) >> /home/younes/scripts/CurrentDaTOutput.txt  
-EOF  
+echo $(date +"%D %T") >> /home/younes/scripts/CurrentDaTOutput.txt  
+EOF
 ```
-
-
-```
-*echo $(date +"%D %T") > $HOME/datetime.txt*
-```
--------------------------------  
 
 ### Register the script in your crontab so that it runs every minute.    
 
+De paths krijgen voor de bestanden.
 ```
 readlink -f CurrentDaT.sh  
+readlink -f CurrentDaTOutput.txt  
+```
+
 /home/younes/scripts/CurrentDaT.sh  
-readlink -f CurrentDaT.sh  
 /home/younes/scripts/CurrentDaTOutput.txt  
 
+Excuatble toestemming geven
+```
 chmod +x CurrentDaT.sh    
-
-tail -f /home/younes/scripts/CurrentDaTOutput.txt  
-
-crontab -e  
-
-
 ```
 
 Crontab opstarten
@@ -47,10 +41,23 @@ Crontab opstarten
 crontab -e  
 ```
 
+Deze code boven aan zetten zodat het weet waar de path is.
+```
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/younes/scripts
+```
+
+![resultaat](/00_includes/LNX-08-resultaat3.png "resultaat")
+
 Elke minute de huidige tijd automatisch schrijven naar de CurrentDaTOutput.txt
 ```
 * * * * * /home/younes/scripts/CurrentDaT.sh  
 ```
+
+Deze heb ik bij 2de ternimal ingevoert om het live te kunnen volgen.
+```
+tail -f /home/younes/scripts/CurrentDaTOutput.txt  
+```
+
 ![resultaat](/00_includes/LNX-08-resultaat.png "resultaat")
 -------------------------------  
 
@@ -67,7 +74,7 @@ echo "Avaible Space Left  $(df -h / --output=used,avail,size,pcent) as of $(date
 cat <<"EOF"> DiskSpaceLog.sh  
 #!/bin/bash  
 echo "Avaible Space Left:$(df -h / --output=avail | tail -1) as of $(date)" >> /var/log/DiskSpace.log  
-EOF  
+EOF
 ```
 
 ```
@@ -89,7 +96,6 @@ De script werkt voor elke minute en daarna weer aangepast om elke Maandag om 12:
 
 
 
-
 ### Gebruikte bronnen  
 https://www.cyberciti.biz/faq/linux-display-date-and-time/  
 https://opensource.com/article/17/11/how-use-cron-linux  
@@ -97,8 +103,6 @@ https://crontab.guru/
 https://www.baeldung.com/linux/cron-jobs-path  
 https://www.redhat.com/sysadmin/linux-df-command  
 https://www.hostinger.com/tutorials/vps/how-to-check-and-manage-disk-space-via-terminal  
-
-
 
 
 
