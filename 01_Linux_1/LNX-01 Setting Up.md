@@ -9,11 +9,11 @@ Het kunnen inloggen op een SSH connection.
 *When the connection is successful, type whoami in the terminal. This command should show your username.
 
 ### Gebruikte bronnen
-
+Techgrounds Pathways
 
 ### Ervaren problemen
 Permission Denied tijdens het inloggen. De command op terminal was niet volledige ingevuld en geen verwijzen naar de file. De volgende stappen heb ik genomen om het op te lossen.
-1) 'cd C:\Users\TechGrounds\.ssh>'
+1) 'cd C:\Users\TechGrounds\.ssh'
 2) ssh -i .\Nest-Yo-Mahria.pem younes@18.157.179.30 -p 52211
 
 ### Resultaat
