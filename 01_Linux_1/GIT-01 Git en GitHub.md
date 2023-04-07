@@ -1,4 +1,4 @@
-# GIT-01 Git en GitHub
+# Git en GitHub
 Introductie van Git en Github om de termen te leren kennen en omgaan met de repository
 
 ## Key-terms
@@ -7,7 +7,7 @@ Introductie van Git en Github om de termen te leren kennen en omgaan met de repo
 De project waar alle je files en folders staan.
 
 ### Main / Master:  
-De huidige versie van je project met alles files/folders die horen up-to-date zijn.
+De huidige versie van je project met alle files/folders die horen up-to-date zijn.
 
 ### Branch:  
 Het maakt een apart kopie van het file/project waarbij je dan kan experimenteren  voor nieuwe functies en dat er geen problemen ondervinden zoals bugs voordat het wordt samentoegevoegd naar de master repository. 

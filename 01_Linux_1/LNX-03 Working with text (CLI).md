@@ -1,4 +1,4 @@
-# LNX-03 Working with text (CLI)  
+# Working with text (CLI)  
 Het kunnen verwerken van teksten.
 
 ## Key-term
@@ -25,7 +25,7 @@ Het weergeven de output resultaat dat je op het einde had geschreven.
 ### >  
 Verwijst de output om het te schrijven naar een bestand, als de bestand al bestaat wordt alles gewist als het niet bestaat wordt het als nieuw gemaakt.
 
-###  >>  
+### >>  
 Verwijst de output om het te schrijven naar een bestand als toevoeging vanaf de nieuwe regel, als de bestand niet bestaat wordt het als nieuw gemaakt.
 
 ### grep  

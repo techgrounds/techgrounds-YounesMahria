@@ -1,4 +1,4 @@
-# LNX-07 Bash scripting  
+# Bash scripting  
 Het maken van verschildende Bash scripts.
 
 ## Key-terms
@@ -11,13 +11,13 @@ De waarde maken, aanpassen en opslaan ervan. Hieruit kan het lezen wat is opgesl
 `$tux = "A certain mascout name that you might know of"`  
 Je kan elke benaming geven die je wilt maar voor Linux maakt het niets uit. Voor de mensen zou het lastig zijn wat je bedoelt met `$auto` als je voorbeeld aantal km gereden daarin opslaat of hoe lang je pc aan staat.
 
-### Conditions
+### Conditions  
 De voorwaarden aangeven wat het moet doen in de opgegeven stelling. De stelling kan alleen maar 1 voorwaarde uitvoeren of 0 voorwaarde. De overige voorwaarde worden niet gelezen zodra de eerste voorwaarde match is gemaakt in de stelling. 
 
 
 ## Opdracht
 
-### Exercise 1:
+### Exercise 1:  
 ### Create a directory called ‘scripts’. Place all the scripts you make in this directory.
 ```
 mkdir scripts
@@ -61,18 +61,17 @@ EOF
 ```
 
 De excutable toestemming geven voor de file en daarna de script starten met bash daarna de output lezen.
-
 ```
 chmod +x AppendsNewLine.sh
 bash AppendsNewLine.sh
 cat AppendsOutput.txt
 ```
+ 
  ![resultaat](/00_includes/LNX-07-resultaat.png "resultaat")
 
 ### Create a script that installs the httpd package, activates httpd, and enables httpd. Finally, your script should print the status of httpd in the terminal.
 
-Mijn script toevegen met cat 
-
+Mijn script toevoegen met cat:
 ```
 cat <<"EOF"> InstallHttpd.sh
 #!/bin/bash
@@ -96,17 +95,16 @@ EOF
 
 ----
 
-### Variables:
-You can assign a value to a string of characters so that the value can be read somewhere else in the script.
-Assigning a variable is done using ‘=’.
+### Variables:  
+You can assign a value to a string of characters so that the value can be read somewhere else in the script.  
+Assigning a variable is done using ‘=’.  
 Reading the value of a variable is done using 
 ```
 ‘$<insert variable name here>’.
 ```
 
-### Exercise 2:
+### Exercise 2:  
 Create a script that generates a random number between 1 and 10, stores it in a variable, and then appends the number to a text file.
-
 ```
 cat <<"EOF"> rngStore.sh
 #!/bin/bash
@@ -117,8 +115,8 @@ echo $numberOutcome
 echo $numberOutcome > rngStoreOutput.txt
 EOF
 ```
-De excutable toestemming geven voor de file en daarna de script starten met bash daarna de output lezen.
 
+De excutable toestemming geven voor de file en daarna de script starten met bash daarna de output lezen.
 ```
 chmod +x rngStore.sh
 bash rngStore.sh
@@ -129,17 +127,14 @@ cat rngStoreOutput.txt
 
 -----------------------------------
 
-### Conditions:
+### Conditions:  
 You can choose to only run parts of your script if a certain condition is met. For example, only read a file if the file exists, or only write to a log if the health check returns an error. This can be done using conditions.
 
 A check for a condition can be done using ‘if’, ‘elif’, and/or ‘else’.
 
 
-### Exercise 3:
+### Exercise 3:  
 Create a script that generates a random number between 1 and 10, stores it in a variable, and then appends the number to a text file only if the number is bigger than 5. If the number is 5 or smaller, it should append a line of text to that same text file instead.
-
-
-
 ```
 cat <<"EOF"> rngStoreIfStatement.sh
 #!/bin/bash
@@ -185,7 +180,7 @@ https://linuxhint.com/compare-numbers-bash/
 
 
 
-### Ervaren problemen
+### Ervaren problemen  
 Een script kunnen scrhijven in de terminal was nieuwe voor mij.   
 De eerste was vim maar die deed het niet goed,  
 De andere was nano wat veel beter is en de betere editor is.  
@@ -196,8 +191,8 @@ cat <<"EOF"> script.sh
 EOF
 ```
 
-### Resultaat
-Scripts kunnen schrijven in een linux omgeving met verschilden resultaten.
+### Resultaat  
+Scripts kunnen schrijven in een linux omgeving met verschilden resultaten.   
 - Een nieuwe tekst toevoegen in een bestand.
 - Httpd installeren, activeren en status laten zien.
 - Een automatisch een nummer kiezen tussen 1-10 kiezen en het schrijven in een bestand.

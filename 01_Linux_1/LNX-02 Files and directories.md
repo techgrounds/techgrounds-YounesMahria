@@ -1,4 +1,4 @@
-# LNX-02 Files and directories  
+# Files and directories  
 Omgaan met files and directories in powershell met commandos.
 
 ## Key-terms
@@ -26,7 +26,10 @@ Nagiveren door je mappen.
 ```
 
 ### Make a listing of all   in your home directory.  
-`` ``
+```
+ls -all
+```
+
 ### Within your home directory, create a new directory named ‘techgrounds’.  
 ```
 mkdir techgrounds

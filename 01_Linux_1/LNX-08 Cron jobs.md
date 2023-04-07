@@ -1,4 +1,4 @@
-# LNX-08 Cron jobs  
+# Cron jobs  
 Het toevoegen van taken die je crontab zet.
 
 ## Key-terms
@@ -9,14 +9,14 @@ Een Linux taken schema die script moet gaan uitvoeren op specifieke tijden en da
 ### **Crontab**    
 Het beheren van de takenschemas waarbij je aangeeft de tijden en dagen, opties en verwijzen naar de script path.  
 
-### tail
+### tail  
 Het volgt en laat live updates zien op de geselecteerde file die je aangeeft. Zo kun je beter zien wanneer de output veranderd.
 
 ## Opdracht
 
 ### Create a Bash script that writes the current date and time to a file in your home directory.  
 
-De script om de huidige tijd te kunnen krijgen
+De script om de huidige tijd te kunnen krijgen  
 ```
 cat <<"EOF"> CurrentDaT.sh  
 #!/bin/bash  
@@ -26,7 +26,7 @@ EOF
 
 ### Register the script in your crontab so that it runs every minute.    
 
-De paths krijgen voor de bestanden.
+De paths krijgen voor de bestanden.  
 ```
 readlink -f CurrentDaT.sh  
 readlink -f CurrentDaTOutput.txt  
@@ -36,7 +36,7 @@ De outputs zijn:
 /home/younes/scripts/CurrentDaT.sh  
 /home/younes/scripts/CurrentDaTOutput.txt  
 
-Excuatble toestemming geven
+Excuatble toestemming geven  
 ```
 chmod +x CurrentDaT.sh    
 ```

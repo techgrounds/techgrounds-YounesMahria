@@ -1,4 +1,4 @@
-# LNX-05 File permissions  
+# File permissions  
 Permissions op files aanpassen.
 
 ## Key-terms
@@ -30,7 +30,7 @@ ls -l lnx05.txt
 
 ![resultaat](/00_includes/LNX-05-resultaat.png "resultaat")
 
-### Who is the file’s owner and group? 
+### Who is the file’s owner and group?  
 younes younes
 
 ![resultaat2](/00_includes/LNX-05-resultaat2.png "resultaat2")
@@ -80,14 +80,13 @@ sudo cat lnx05.txt
 ```
 
 ### Change the group ownership of the file to a different group.
-
 ```
 sudo chgrp techgrounds lnx05.txt
 ```
 
 ![resultaat5](/00_includes/LNX-05-resultaat5.png "resultaat5")
 
-### Gebruikte bronnen
+### Gebruikte bronnen  
 https://phoenixnap.com/kb/linux-file-permissions
 https://www.pluralsight.com/blog/it-ops/linux-file-permissions
 https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/
@@ -95,7 +94,7 @@ https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/
 ### Ervaren problemen  
 Tussenstap vergeten bij chmod om te vertellen voor welke groepen het geldt.
 
-### Resultaat
+### Resultaat  
 Het kunnen wijzigen van permissions voor gebruikers, groepen en andere. Kijken naar de permissions voor elke file en folder met **ls** 
 
 
