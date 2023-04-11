@@ -90,7 +90,7 @@ De protocols zijn:
 
 ### Figure out who determines what protocols we use and what is needed to introduce your own protocol.
 
-Er worden deze groepen genoemd;
+Er worden deze groepen genoemd die verantwoordelijke waren van de ontwikkeling en standaardisatie ervan. Ze hoeven niet exclusief vertandwoordelijke zijn voor de ontwikkeling ervan.
 -   [The Institute of Electrical and Electronics Engineers](https://www.ieee.org/) (IEEE)  
 	* Ethernet
 	* Wi-Fi
@@ -129,15 +129,26 @@ Er worden deze groepen genoemd;
 	* OWL
 	* RDF
 
+Er zijn aantal regels die je moet volgen om een nieuwe protocol te kunnen ontwikkelen en het introduceren ervan. Bij IETF moet je aantal stappen doorlopen.
+
+1) Maak een account bij IETF
+2) Lees de documenten van Internet-Draft door.
+3) Vul het document van Internet-Draft in via IETF Datatracker Submission Tool
+4) Die worden beoordeeld door groepen bekeken waarvan ze experts zijn op het gebied. 
+5) Als je voorstel geaccepteerd is dan wordt het uitgewerkt tot een RFC (Request for Comments).
+
+
 ### Look into wireshark and install this program. Try and capture a bit of your own network data. Search for a protocol you know and try to understand how it functions.
 
-
+Op mijn Wifi worden vooral alleen maar UDP 99% en QUIC %1.  
 
 
 ### Gebruikte bronnen
 https://www.techopedia.com/definition/24961/osi-protocols
 https://www.comptia.org/content/guides/what-is-a-network-protocol
 https://www.iana.org/
+https://www.ietf.org/how/ids/
+https://www.ietf.org/standards/rfcs/
 
 ### Ervaren problemen
 [Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]

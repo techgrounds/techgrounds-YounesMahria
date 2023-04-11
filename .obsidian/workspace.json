@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Linux_1/LNX-06 Processes.md",
+                "file": "01_Netwerken_1/NTW-01 OSI stack.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Linux_1/LNX-06 Processes.md",
+                "file": "01_Netwerken_1/NTW-01 OSI stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_Linux_1/LNX-06 Processes.md",
+                "file": "01_Netwerken_1/NTW-01 OSI stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Linux_1/LNX-06 Processes.md"
+                "file": "01_Netwerken_1/NTW-01 OSI stack.md"
               }
             }
           }
@@ -185,14 +185,15 @@
   },
   "active": "dcb90235efe2e7f3",
   "lastOpenFiles": [
+    "01_Netwerken_1/NTW-02 Network Devices.md",
     "01_Netwerken_1/NTW-03 Protocols.md",
     "01_Netwerken_1/NTW-06 Subnetting.md",
+    "01_Netwerken_1/NTW-05 IP Addressing.md",
+    "01_Netwerken_1/NTW-04 Counting in binary.md",
+    "01_Netwerken_1/NTW-01 OSI stack.md",
+    "01_Linux_1/LNX-06 Processes.md",
     "01_Github_1/GIT-02 Markdown.md",
     "01_Github_1/GIT-01 Git en GitHub.md",
-    "01_Netwerken_1/NTW-01 OSI stack.md",
-    "01_Netwerken_1/NTW-02 Network Devices.md",
-    "01_Netwerken_1/NTW-04 Counting in binary.md",
-    "01_Netwerken_1/NTW-05 IP Addressing.md",
     "01_Netwerken_1/opdracht - kopie (5).md",
     "01_Github_1",
     "01_Netwerken_1",
@@ -207,7 +208,6 @@
     "01_Linux_1/LNX-03 Working with text (CLI).md",
     "01_Linux_1/LNX-01 Setting Up.md",
     "01_Linux_1/LNX-07 Bash scripting.md",
-    "01_Linux_1/LNX-06 Processes.md",
     "01_Linux_1/LNX-05 File permissions.md",
     "01_Linux_1/LNX-02 Files and directories.md",
     "00_includes/NTW-01-resultaat2.png",

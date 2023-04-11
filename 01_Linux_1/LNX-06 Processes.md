@@ -65,7 +65,7 @@ Connection closed by foreign host.
 
 Kan geen verbinden maken met telnet.
 
-Op Dinsdag zeer late op middag was had ik het verkeerd gedaan door het uitloggen van mij ssh en verbinding wou maken met telnet. Op Woensdag had ik get gewoon op mijn linux ternimal geinstalleerd en dat was alles nodig om de opdracht goed te kunnen makken.
+Op Dinsdag zeer late op middag was had ik het verkeerd gedaan door het uitloggen van mij ssh en verbinding wou maken met telnet. Op Woensdag had ik het gewoon op mijn linux ternimal geinstalleerd en dat was alles nodig om de opdracht goed te kunnen makken.
 
 ### Resultaat  
 Er achter komen dat de ze niet de zelfde namen bevant tussen package en process naam. Hierbij is telnet de package naam terwijl het inteld als process name gebruikt. Er kunnen achter wat de PID is voor de programma.
