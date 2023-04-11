@@ -5,6 +5,7 @@ Leren om markdown te gebruiken in github.
 Markdown maken en de betekenis van WYSIWYG vs WYSIWYM. Keywords en Opdracht zijn samengevoegd voor het gemak!
 
 ## Key-terms
+
 ### Markdown: 
 Je document een style geven door even van deze onderaan te doen.
 
