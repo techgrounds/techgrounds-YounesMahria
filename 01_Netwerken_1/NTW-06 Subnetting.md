@@ -21,21 +21,23 @@ Een Local Area Network (LAN) het zorgt ervoor dat minimaal 2 apparaten met elkaa
 
 ## Opdracht  
 
-### 1 private subnet dat alleen van binnen het LAN bereikbaar is. Dit subnet moet minimaal 15 hosts kunnen plaatsen.  
 
-Dit is de diagram voor 1 prive subnet binnen het Lan bereikbaar is omdat er geen NAT-gataway zit.
+
+### Maak een netwerkarchitectuur die voldoet aan de volgende eisen:  
+-   *1 private subnet dat alleen van binnen het LAN bereikbaar is. Dit subnet moet minimaal 15 hosts kunnen plaatsen.*
+> De 15 Host-IDs worden iedere apart verbonden met een switch en die switch heeft een direct verbinden met een router, omdat er geen NAT gateway tussen zit kan het niet naar de internet gaan.
+
+-   *1 private subnet dat internet toegang heeft via een NAT gateway. Dit subnet moet minimaal 30 hosts kunnen plaatsen (de 30 hosts is exclusief de NAT gateway).*
+> De 30 Host-IDs  worden iedere apart verbonden met een switch en die gaat eerste naar een NAT-Gateway die vervolgens zorgt dat het naar de router gaat. Bij Internet gateway wordt firewall regels gedaan zodat ze alleen op het internet kunnen gaan maar ze onbereikbaar zijn buiten af.
+
+
+-   *1 public subnet met een internet gateway. Dit subnet moet minimaal 5 hosts kunnen plaatsen (de 5 hosts is exclusief de internet gateway).*
+> De 5 Host-IDs gaan naar een switch en die gaat direct naar de router er is geen NAT gateway nodig omdat het nooit naar prive IP-adres gaat. Het gaat naar de internet gateway en hier wordt de internet toegang gegeven voor beide richtingen. 
+
 ![resultaat](/00_includes/NTW-06-resultaat2.png "resultaat")
 
-### 1 private subnet dat internet toegang heeft via een NAT gateway. Dit subnet moet minimaal 30 hosts kunnen plaatsen (de 30 hosts is exclusief de NAT gateway).  
-
-Dit is de diagram voor 1 prive subnet met internet toegang via een NAT gateway waardoor er geen toegang mogelijke is dat buiten komt van het internet.
-![resultaat](/00_includes/NTW-06-resultaat3.png "resultaat")
 
 
-### 1 public subnet met een internet gateway. Dit subnet moet minimaal 5 hosts kunnen plaatsen (de 5 hosts is exclusief de internet gateway).  
-
-Dit is 1 public subnet met een internet gateway.
-![resultaat](/00_includes/NTW-06-resultaat4.png "resultaat")
 
 ### Gebruikte bronnen
 https://www.providercheck.nl/kennisbank/bericht/wat-is-subnet
