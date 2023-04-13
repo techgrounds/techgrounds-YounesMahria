@@ -134,14 +134,27 @@ Er zijn aantal regels die je moet volgen om een nieuwe protocol te kunnen ontwik
 1) Maak een account bij IETF
 2) Lees de documenten van Internet-Draft door.
 3) Vul het document van Internet-Draft in via IETF Datatracker Submission Tool
-4) Die worden beoordeeld door groepen bekeken waarvan ze experts zijn op het gebied. 
+4) Het zal beoordeeld worden door aantal groepen die experts zijn op het gebied.
 5) Als je voorstel geaccepteerd is dan wordt het uitgewerkt tot een RFC (Request for Comments).
-
 
 ### Look into wireshark and install this program. Try and capture a bit of your own network data. Search for a protocol you know and try to understand how it functions.
 
-Op mijn Wifi worden vooral alleen maar UDP 99% en QUIC %1.  
+Op mijn Wifi worden vooral alleen maar UDP 99% en QUIC %1.  Dus voor deze ga ik de UDP protocol pakken waarvan ik bij Transportlaag (Laag 4) zit. 
 
+De Afkomst (Source) of Bestemming (Destination) wordt aangeven zo kan het Afkomst van 159.124.7.158 (Zoom IP) naar Bestemming van Mij Lokale IP Adress dus ik download gegevens van Zoom naar mij Computer. Andersom is het dat ik upload gegevens van mij Computer naar Zoom.
+De gegevens bestaat vooral uit Videobeeld met Audio die mijn webcam opneemt maar ook kunnen andere gegevens zijn zoals nieuwe tekstberichten.
+`315921	780.588593	159.124.7.158	19x.xxx.xxx.xxx	UDP	1065	8801 → 55332 Len=1023`
+![resultaat](/00_includes/NTW-03-resultaat.png "resultaat")
+
+Nu staat er ook meer informatie eronder aan. Om ze in het kort door te nemen.
+* Frame 315921: Dit is gewoon de ID die program zelf heeft aangegeven is tijdens het opnemen van pakketen.
+* Ethernet II: Via welke netwerk apparteuren ging het die aangegeven worden met een MAC-address
+* Internet Protocol Version 4: Ik gebruik IPv4 en niet IPv6 dus vandaar zie je de IPv4 addressen.
+* Src Port: Afkomst ging via port 8801 naar de Bestemming via port 55332
+* Data (1023 byes): Hoe groot de pakket was.
+![resultaat](/00_includes/NTW-03-resultaat2.png "resultaat")
+
+In het algemene over UDP: Het wordt gebruikt voor tijdnoods gegevensoverdracht zoals DNS-zoekopdracht, online gaming en video streamen. Waarbij dateverlies niet een zeer belangerijkerol speelt om het 100% correct te hebben, er kunnen aantal dataverlies zijn in zeer kleine %.
 
 ### Gebruikte bronnen
 https://www.techopedia.com/definition/24961/osi-protocols
@@ -149,9 +162,10 @@ https://www.comptia.org/content/guides/what-is-a-network-protocol
 https://www.iana.org/
 https://www.ietf.org/how/ids/
 https://www.ietf.org/standards/rfcs/
+https://www.spiceworks.com/tech/networking/articles/user-datagram-protocol-udp/
 
 ### Ervaren problemen
-[Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
+Er zijn zo veel protocols die benoemd worden dat het veel is, er waren oud en nieuw genoemd.
 
 ### Resultaat
-[Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).]
+Het kunnen vinden welke protocolen bij welke lagen erbij horen en hoe ze in het algemeen werken.

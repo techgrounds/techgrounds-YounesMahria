@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Netwerken_1/NTW-01 OSI stack.md",
+                "file": "01_Netwerken_1/NTW-05 IP Addressing.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Netwerken_1/NTW-01 OSI stack.md",
+                "file": "01_Netwerken_1/NTW-05 IP Addressing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_Netwerken_1/NTW-01 OSI stack.md",
+                "file": "01_Netwerken_1/NTW-05 IP Addressing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Netwerken_1/NTW-01 OSI stack.md"
+                "file": "01_Netwerken_1/NTW-05 IP Addressing.md"
               }
             }
           }
@@ -185,40 +185,40 @@
   },
   "active": "dcb90235efe2e7f3",
   "lastOpenFiles": [
-    "01_Netwerken_1/NTW-02 Network Devices.md",
-    "01_Netwerken_1/NTW-03 Protocols.md",
-    "01_Netwerken_1/NTW-06 Subnetting.md",
-    "01_Netwerken_1/NTW-05 IP Addressing.md",
     "01_Netwerken_1/NTW-04 Counting in binary.md",
+    "01_Netwerken_1/NTW-05 IP Addressing.md",
+    "01_Netwerken_1/NTW-06 Subnetting.md",
+    "00_includes/NTW-06-resultaat4.png",
+    "00_includes/opdracht3Final2.png",
+    "00_includes/NTW-06-resultaat3.png",
+    "00_includes/opdracht2Final2.png",
+    "00_includes/NTW-06-resultaat2.png",
+    "00_includes/opdracht1Final2.png",
+    "00_includes/opdracht1Final.png",
+    "01_Netwerken_1/NTW-02 Network Devices.md",
+    "00_includes/opdracht1.drawio.png",
+    "01_Netwerken_1/NTW-07 Networking Case Study.md",
+    "01_Netwerken_1/NTW-03 Protocols.md",
+    "00_includes/NTW-06-resultaat.png",
+    "01_Linux_1/LNX-08 Cron jobs.md",
     "01_Netwerken_1/NTW-01 OSI stack.md",
-    "01_Linux_1/LNX-06 Processes.md",
+    "00_includes/NTW-05-resultaat.png",
+    "00_templates/opdracht.md",
     "01_Github_1/GIT-02 Markdown.md",
+    "01_Linux_1/LNX-06 Processes.md",
     "01_Github_1/GIT-01 Git en GitHub.md",
-    "01_Netwerken_1/opdracht - kopie (5).md",
     "01_Github_1",
     "01_Netwerken_1",
     "02_Cloud_1/S3.md",
     "02_Cloud_1/opdracht.md",
-    "00_includes/NTW-02-resultaat2.png",
-    "00_templates/opdracht.md",
     "Untitled.canvas",
-    "00_includes/NTW-02-resultaat.png",
-    "01_Linux_1/LNX-08 Cron jobs.md",
     "01_Linux_1/LNX-04 Users and groups.md",
     "01_Linux_1/LNX-03 Working with text (CLI).md",
     "01_Linux_1/LNX-01 Setting Up.md",
     "01_Linux_1/LNX-07 Bash scripting.md",
     "01_Linux_1/LNX-05 File permissions.md",
     "01_Linux_1/LNX-02 Files and directories.md",
-    "00_includes/NTW-01-resultaat2.png",
-    "Pasted image 20230407141037.png",
     "00_includes/NTW-01-resultaat1.png.md",
-    "00_includes/NTW-01-resultaat0.png.md",
-    "00_includes/NTW-01-resultaat.png",
-    "00_includes/LNX-08-resultaat3.png",
-    "00_includes/LNX-03-resultaat3.png",
-    "00_includes/LNX-03-resultaat2.png",
-    "00_includes/LNX-04-resultaat.png",
-    "00_includes/LNX-03-resultaat.png"
+    "00_includes/NTW-01-resultaat0.png.md"
   ]
 }
