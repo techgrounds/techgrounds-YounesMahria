@@ -9,7 +9,7 @@ Elke apparateur die verbonden is met het netwerk krijgt een IP adres als een com
 ### IPv4 en IPv6  
 De IPv4 zijn opgesplits in 4 punten zoals 0.0.0.0. De waarde ervan is 0-255 waarvan ze Base 10 gebruiken. Elke van hun gebruiken 8-bit binary. Het zijn 32-bits nummers dus de mogelijkeheden zijn 2^32 = 4.294.967.296 dus bijna 4.3 miljard.
 
-	De IPv6 zijn opgesplits in 8 dubbele punten zoals: 2532:08d9:65e3:4ed8:f6f7:917c:1a19:a1a5. De waarde ervan is 0000-ffff waarvan ze Base 16 gebruken. De ffff = 65535. Het zijn 128-bits nummers dus de mogelijkeheden zijn 2^128 = 3,4028236692093846346337460743177e+38 dus 340 undecillion. 
+De IPv6 zijn opgesplits in 8 dubbele punten zoals: 2532:08d9:65e3:4ed8:f6f7:917c:1a19:a1a5. De waarde ervan is 0000-ffff waarvan ze Base 16 gebruken. De ffff = 65535. Het zijn 128-bits nummers dus de mogelijkeheden zijn 2^128 = 3,4028236692093846346337460743177e+38 dus 340 undecillion. 
 
 De IPv5, ja 5 bestaat ook! Ze waren ermee bezig maar kwamen achter dat het ook zelfde problemen zou krijgen dat het ook 32-bits en base 10 gebruikte. Sinds IPv6 al in ontwikkeling was werd ontwikkeling IPv5 stop gezet wordt het nooit als standard werd gepubliceerd.
   
@@ -72,8 +72,6 @@ https://www.networkworld.com/article/3588315/what-is-an-ip-address-and-what-is-y
 https://www.networkworld.com/article/3254575/what-is-ipv6-and-why-aren-t-we-there-yet.html
 https://www.dnsbelgium.be/nl/nieuws/heerlijk-helder-verdwenen-ipv5
 https://www.socallinuxexpo.org/sites/default/files/presentations/Why%20IP%20Versions%20and%20Why%20do%20I%20care.pdf
-
-
 
 
 ### Ervaren problemen

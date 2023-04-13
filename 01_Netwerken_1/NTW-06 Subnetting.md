@@ -32,7 +32,7 @@ Een Local Area Network (LAN) het zorgt ervoor dat minimaal 2 apparaten met elkaa
 
 
 -   *1 public subnet met een internet gateway. Dit subnet moet minimaal 5 hosts kunnen plaatsen (de 5 hosts is exclusief de internet gateway).*
-> De 5 Host-IDs gaan naar een switch en die gaat direct naar de router er is geen NAT gateway nodig omdat het nooit naar prive IP-adres gaat. Het gaat naar de internet gateway en hier wordt de internet toegang gegeven voor beide richtingen. 
+> 	De 5 Host-IDs gaan naar een switch en die gaat direct naar de router er is geen NAT gateway nodig omdat het nooit naar prive IP-adres gaat. Het gaat naar de internet gateway en hier wordt de internet toegang gegeven voor beide richtingen. 
 
 ![resultaat](/00_includes/NTW-06-resultaat2.png "resultaat")
 
