@@ -72,7 +72,7 @@ https://www.networkworld.com/article/3588315/what-is-an-ip-address-and-what-is-y
 https://www.networkworld.com/article/3254575/what-is-ipv6-and-why-aren-t-we-there-yet.html
 https://www.dnsbelgium.be/nl/nieuws/heerlijk-helder-verdwenen-ipv5
 https://www.socallinuxexpo.org/sites/default/files/presentations/Why%20IP%20Versions%20and%20Why%20do%20I%20care.pdf
-
+https://hub.packtpub.com/understanding-address-spaces-and-subnetting-in-ipv4-tutorial/
 
 ### Ervaren problemen
 Geen
