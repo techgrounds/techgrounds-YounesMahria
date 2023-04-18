@@ -11,12 +11,8 @@
             "id": "dcb90235efe2e7f3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01_Security_1/SEC-01 Network Detection.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Security_1/SEC-01 Network Detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_Security_1/SEC-01 Network Detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "01_Security_1/SEC-01 Network Detection.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,84 +138,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "1db7228bb196af95",
-    "type": "floating",
-    "children": [
-      {
-        "id": "2b85267039c86642",
-        "type": "window",
-        "children": [
-          {
-            "id": "6e496b33456cbe25",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "9d804188e6ec1004",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "00_templates/opdracht.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 256,
-        "y": 12,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "dcb90235efe2e7f3",
+  "active": "6592069c50c4b0c9",
   "lastOpenFiles": [
-    "01_Security_1/SEC-02 Firewalls.md",
-    "01_Security_1/SEC-03 IAM.md",
+    "Pasted image 20230417141123.png",
+    "Pasted image 20230417154037.png",
+    "Pasted image 20230407141037.png",
     "01_Security_1/SEC-04 Symmetric Encryption.md",
     "01_Security_1/SEC-05 Asymmetric Encryption.md",
+    "01_Linux_1/LNX-06 Processes.md",
+    "01_Linux_1/LNX-05 File permissions.md",
+    "01_Linux_1/LNX-04 Users and groups.md",
+    "01_Linux_1/LNX-02 Files and directories.md",
+    "01_Linux_1/LNX-07 Bash scripting.md",
+    "01_Security_1/SEC-02 Firewalls.md",
+    "01_Security_1/SEC-01 Network Detection.md",
+    "01_Security_1/SEC-03 IAM.md",
+    "01_Netwerken_1/NTW-07 Networking Case Study.md",
+    "01_Netwerken_1/NTW-06 Subnetting.md",
+    "00_includes/NTW-07-resultaat2.png",
+    "00_includes/SEC-02-resultaat3.png",
+    "00_includes/SEC-02-resultaat2.png",
+    "01_Linux_1/LNX-03 Working with text (CLI).md",
+    "01_Linux_1/LNX-08 Cron jobs.md",
+    "01_Linux_1/LNX-01 Setting Up.md",
+    "00_includes/SEC-02-resultaat.png",
+    "00_includes/SEC-01-resultaat4.png",
+    "00_includes/SEC-01-resultaat3.png",
+    "00_includes/SEC-01-resultaat2.png",
+    "00_includes/SEC-01-resultaat.png",
     "01_Security_1/SEC-06 Public Key Infrastructure.md",
     "01_Security_1/SEC-07 Passwords.md",
     "01_Security_1/SEC-08 Detection, response and analysis.md",
-    "01_Netwerken_1/NTW-07 Networking Case Study.md",
     "00_templates/opdracht.md",
-    "01_Security_1/SEC-01 Network Detection.md",
     "01_Security_1",
-    "01_Netwerken_1/NTW-06 Subnetting.md",
-    "Pasted image 20230417141123.png",
-    "00_includes/NTW-07-resultaat.png",
     "01_Netwerken_1/NTW-05 IP Addressing.md",
     "01_Netwerken_1/NTW-01 OSI stack.md",
     "01_Netwerken_1/NTW-02 Network Devices.md",
     "01_Netwerken_1/NTW-03 Protocols.md",
     "01_Netwerken_1/NTW-04 Counting in binary.md",
-    "00_includes/NTW-05-resultaat.png",
-    "00_includes/NTW-06-resultaat2.png",
-    "00_includes/opdracht3Final2.png",
-    "00_includes/NTW-06-resultaat4.png",
-    "00_includes/NTW-06-resultaat3.png",
-    "00_includes/opdracht2Final2.png",
-    "00_includes/opdracht1Final2.png",
-    "00_includes/opdracht1Final.png",
-    "01_Linux_1/LNX-08 Cron jobs.md",
     "01_Github_1/GIT-02 Markdown.md",
-    "01_Linux_1/LNX-06 Processes.md",
-    "01_Github_1/GIT-01 Git en GitHub.md",
     "01_Github_1",
     "01_Netwerken_1",
-    "02_Cloud_1/S3.md",
-    "02_Cloud_1/opdracht.md",
-    "Untitled.canvas",
-    "01_Linux_1/LNX-04 Users and groups.md",
-    "01_Linux_1/LNX-03 Working with text (CLI).md",
-    "01_Linux_1/LNX-01 Setting Up.md",
-    "01_Linux_1/LNX-07 Bash scripting.md"
+    "Untitled.canvas"
   ]
 }

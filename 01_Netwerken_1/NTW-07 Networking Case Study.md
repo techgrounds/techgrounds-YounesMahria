@@ -34,8 +34,13 @@ As a network administrator you get to choose which networking devices get used.
 * De File Server verstuurt data naar de Printer om documenten te kunnen printen.
 * De Firewall heeft security policies voor welke verbinden er wel en niet er doorheen mogen.
 
-
-
+### Na de [Beer:30 - Network Architecture Review](https://www.youtube.com/@SecureState)
+![resultaat](/00_includes/NTW-07-resultaat2.png "resultaat")
+* De 5 Workstations en 1 Printer worden apart verbonden met 1 switch die naar de Internal Router gaat. 
+* De 1 File Server word verbonden met 1 switch en die naar de Internal Router gaat. 
+* De Internal Router met Nat-gateway ingebouw gaat naar de Firewall en die gaat naar het Internet uiteindelijke
+* De Database gaat eerste door een AD Server en dan pas Web Server.
+* De Web Server gaat direct naar de Firewall voordat het na de internet gaat.
 
 ### Gebruikte bronnen
 https://learn.microsoft.com/nl-nl/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview
@@ -45,5 +50,7 @@ https://learn.microsoft.com/nl-nl/azure/active-directory/fundamentals/active-dir
 ### Ervaren problemen
 Er waren veel mogelijkeheden om het te kunnen maken en soms tewijfel je of het op deze manier hoort. Ik heb het gehouden om een structuur te focussen en niet te mogelijke erover nadenken. 
 
+Na de video te hebben bekeken zag ik hoe het anders moet en hoe dichtbij in de buurt zat.
+
 ### Resultaat
-Een scheme kunnen maken gebaseerd van de wensen.
+Een scheme kunnen maken gebaseerd van de wensen en het kunnen inzien de andere mogelijkeheid die beter werkt.

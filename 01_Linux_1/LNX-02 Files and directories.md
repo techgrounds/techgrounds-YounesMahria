@@ -3,6 +3,9 @@ Omgaan met files and directories in powershell met commandos.
 
 ## Key-terms
 
+### nano
+een text editor in de ternimal.
+
 ### ~  
 Je root directory weergeven.  
 

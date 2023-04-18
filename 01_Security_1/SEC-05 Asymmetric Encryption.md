@@ -4,6 +4,9 @@
 ## Key-terms
 [Schrijf hier een lijst met belangrijke termen met eventueel een korte uitleg.]
 
+### Asymmetrical encryption  
+Deze versleutelingsmethode verschilt van asymmetrische versleuteling waarbij een paar sleutels - een openbaar en een privé - wordt gebruikt om berichten te versleutelen en ontsleutelen.
+
 ## Opdracht
 ### Gebruikte bronnen
 [Plaats hier de bronnen die je hebt gebruikt.]
