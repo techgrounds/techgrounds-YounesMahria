@@ -32,9 +32,9 @@ sudo systemctl status apache2
 ```
 
 ### Bekijk de standaardpagina die met de webserver geïnstalleerd is.  
-Typ `curl http://localhost`
-![resultaat](/00_includes/SEC-02-resultaat.png "resultaat")  
-Zoals boven aangegeven "Default Welcome Page"
+Typ http://18.157.179.30:58011/ in my webbrowser
+![resultaat](/00_includes/SEC-02-resultaat01.png "resultaat")  
+Zoals boven aangegeven "Apache2 Ubuntu Welcome Page"
 
 ### Stel de firewall zo in dat je webverkeer blokkeert, maar wel ssh-verkeer toelaat.  
 
@@ -65,14 +65,8 @@ sudo ufw status verbose
 ```
 ![resultaat](/00_includes/SEC-02-resultaat2.png "resultaat")
 
-Als ik nu het tes met `nmap` en `ping` commando
-```
-nmap 8.8.8.8
-ping 8.8.8.8
-```
-
-De resultaat is als volgt:
-![resultaat](/00_includes/SEC-02-resultaat3.png "resultaat")
+Als ik nu weer probeer te laden dan krijg ik dat het niet bereikbaar is.
+![resultaat](/00_includes/SEC-02-resultaat02.png "resultaat")
 
 
 ### Gebruikte bronnen
@@ -98,6 +92,8 @@ sudo ufw allow ssh
 sudo ufw enable
 ```
 Daarna was alleen nog port 22 in de lijst.
+
+Hoewel ik de opdracht eerder begrijp omdat ik te gefocuseed was in de linux vm had ik daarna op mij webbrowser gedaan om webpage te laden.
 
 ### Resultaat
 Weten wat de verschillen zijn tussen de firewalls en hoe je ports kan blokkeren, resetten in Linux met UFW.

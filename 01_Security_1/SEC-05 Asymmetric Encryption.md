@@ -1,13 +1,21 @@
 # Asymmetric encryption
-[Geef een korte beschrijving van het onderwerp]
+Uitleg en werking van Asysmmetric Encryption
 
 ## Key-terms
-[Schrijf hier een lijst met belangrijke termen met eventueel een korte uitleg.]
 
 ### Asymmetrical encryption  
 Deze versleutelingsmethode verschilt van asymmetrische versleuteling waarbij een paar sleutels - een openbaar en een privé - wordt gebruikt om berichten te versleutelen en ontsleutelen.
 
+
 ## Opdracht
+
+### Generate a key pair.
+
+
+### Send an asymmetrically encrypted message to one of your peers via the public Slack channel. They should be able to decrypt the message using a key. The recipient should be able to read the message, but it should remain a secret to everyone else. You are not allowed to use any private messages or other communication channels besides the public Slack channel. Analyse the difference between this method and symmetric encryption.
+
+
+
 ### Gebruikte bronnen
 [Plaats hier de bronnen die je hebt gebruikt.]
 

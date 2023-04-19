@@ -20,7 +20,15 @@ Mij prive ip-adres is 10.171.154.90
 We gaan alle network scannen op 10.171.154.x dus dan type 
 `nmap 10.171.154.*`
 ![resultaat](/00_includes/SEC-01-resultaat3.png "resultaat")
-Hier zie ik een lijst met alle Host-IDs die verbonden zijn binnen het Linux Netwerk.
+Hier zie ik een lijst met alle Host-IDs die verbonden zijn binnen het Linux Netwerk. 
+(sudo nmap -F 10.171.154.0/24)
+
+Nmap scan report for nest-yo-mahria.lxd (10.171.154.90)
+Host is up (0.000087s latency).
+Not shown: 99 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: 00:16:3E:7B:21:FC (Xensource)
 
 ### Open Wireshark in Windows/MacOS Machine. Analyse what happens when you open an internet browser.   
 (Tip: you will find that Zoom is constantly sending packets over the network. You can either turn off Zoom for a minute, or look for the packets sent by the browser between the packets sent by Zoom.)  
