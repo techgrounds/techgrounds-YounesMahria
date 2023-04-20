@@ -4,8 +4,6 @@ Uitleg geven over de OSI Model en TCP/IP Model.
 
 ## Key-terms
 
-
-
 ## Opdracht
 Het bestuderen van de volgende kenmerken
 -   The OSI model and its uses.
