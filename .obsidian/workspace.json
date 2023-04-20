@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Security_1/SEC-05 Asymmetric Encryption.md",
+                "file": "01_Security_1/SEC-07 Passwords.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Security_1/SEC-05 Asymmetric Encryption.md",
+                "file": "01_Security_1/SEC-07 Passwords.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_Security_1/SEC-05 Asymmetric Encryption.md",
+                "file": "01_Security_1/SEC-07 Passwords.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Security_1/SEC-05 Asymmetric Encryption.md"
+                "file": "01_Security_1/SEC-07 Passwords.md"
               }
             }
           }
@@ -148,9 +148,9 @@
   },
   "active": "dcb90235efe2e7f3",
   "lastOpenFiles": [
-    "01_Security_1/SEC-04 Symmetric Encryption.md",
-    "01_Security_1/SEC-05 Asymmetric Encryption.md",
     "01_Security_1/SEC-08 Detection, response and analysis.md",
+    "01_Security_1/SEC-05 Asymmetric Encryption.md",
+    "01_Security_1/SEC-04 Symmetric Encryption.md",
     "01_Security_1/SEC-07 Passwords.md",
     "01_Security_1/SEC-06 Public Key Infrastructure.md",
     "00_includes/SEC-07-resultaat3.png",

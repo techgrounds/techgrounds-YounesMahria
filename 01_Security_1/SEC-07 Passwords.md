@@ -67,12 +67,12 @@ sudo adduser tgusereasypassword
 12345
 ```
 
-**MD5 Hash**
+**MD5 Hash zonder salt**
 ```
 827ccb0eea8a706c4c34a16891f84e7b
 ```
 
-**SHA1 Hash**
+**SHA1 Hash zonder salt**
 ```
 8cb2237d0679ca88db6464eac60da96345513964
 ```
@@ -96,19 +96,19 @@ tgusereasypassword:$6$YCIlvXLWjSyOFWIK$c2JNsxzmV7D93WogL2kSy3L05syLn6mEvB4D19tg1
 tgusereasypassword
 ```
 
-**De Hash Methode (SHA-512)** 
+**De Hash Methode 6 = (SHA-512)** 
 ```
-$6
+6
 ```
 
 **Salted**
 ```
-$YCIlvXLWjSyOFWIK
+YCIlvXLWjSyOFWIK
 ```
 
 **SHA-512**
 ```
-$c2JNsxzmV7D93WogL2kSy3L05syLn6mEvB4D19tg1NspZGKSTJgEqJM8GUwWK.i7iOLh.b38JDwjG4SIyHVgn0
+c2JNsxzmV7D93WogL2kSy3L05syLn6mEvB4D19tg1NspZGKSTJgEqJM8GUwWK.i7iOLh.b38JDwjG4SIyHVgn0
 ```
 
 **Aantal dagen sinds 1 Jan 1970**
