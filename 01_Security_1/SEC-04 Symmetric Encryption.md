@@ -85,6 +85,8 @@ IAvqsOk8eDSM3/D/Sxu2BGpVCPs+F8MIIz0zl8FxfIcAH+tG3uZ7aqoKQpSvkf/LKIhlqh/x/vlR4RYQ
 ```
 
 ![resultaat](/00_includes/SEC-04-resultaat2.png "resultaat")
+*ceasar-joke.png*
+
 **Alt text**
 ```
 Dhhyvt ullt ql kl tvlpal vt kpa kl lujyfwalu. Ola ollma avjo olslthhs nllu avlnlcvlnkl dhhykl? Vm nh ql avjo ql apqk clyzwpsslu?. Hjo ub ql avjo oply ilua. Kl whzzwoyhzl pz uplagvzwljphhsol 7Shift
@@ -126,6 +128,10 @@ Security through obscurity.
 
 
 ### Jon  
+
+![resultaat](/00_includes/TAKEAREGULARPAWS.png "resultaat")
+*TAKEAREGULARPAWS.png*
+
 **Encrypted Text**
 ```
 bMqDO7kRwNPkyBNpcNV15pQWwC7oNQ5NGkZFo7r5yi4=

@@ -1,5 +1,5 @@
 # Passwords
-
+Beveiliging van de wachtwoorden
 
 ## Key-terms
 
@@ -61,22 +61,123 @@ Deze werd het niet gevonden
 
 ### Create a new user in Linux with the password 12345. Look up the hash in a Rainbow Table.
 
+**Nieuwe gebruiker maken**
+```
+sudo adduser tgusereasypassword
+12345
+```
+
+**MD5 Hash**
+```
+827ccb0eea8a706c4c34a16891f84e7b
+```
+
+**SHA1 Hash**
+```
+8cb2237d0679ca88db6464eac60da96345513964
+```
+
+**Hash zoeken**  
+De hash kun je vinden met
+```
+cat /etc/shadow
+```
+
+**Output**
+![resultaat](/00_includes/SEC-07-resultaat2.png "resultaat")
+
+```
+tgusereasypassword:$6$YCIlvXLWjSyOFWIK$c2JNsxzmV7D93WogL2kSy3L05syLn6mEvB4D19tg1NspZGKSTJgEqJM8GUwWK.i7iOLh.b38JDwjG4SIyHVgn0:19467:0:99999:7:::
+```
+
+
+**Gebruikersnaam**
+```
+tgusereasypassword
+```
+
+**De Hash Methode (SHA-512)** 
+```
+$6
+```
+
+**Salted**
+```
+$YCIlvXLWjSyOFWIK
+```
+
+**SHA-512**
+```
+$c2JNsxzmV7D93WogL2kSy3L05syLn6mEvB4D19tg1NspZGKSTJgEqJM8GUwWK.i7iOLh.b38JDwjG4SIyHVgn0
+```
+
+**Aantal dagen sinds 1 Jan 1970**
+```
+19467
+```
+
+
+**Minimaal dagen voordat je wachtwoord weer kan veranderen / 0 = uit**
+```
+0
+```
+
+**Maximaal dagen hoe lang je wachtwoord geldig is**
+```
+99999
+```
+
+**Aantal dagen voordat je waarschuwing krijgt om het te veranderen**
+```
+7
+```
+
+De laaste twee (Inactief en Verlopen) zijn leeg.
+
+**Rainbow Table**  
+![resultaat](/00_includes/SEC-07-resultaat3.png "resultaat")
+Kan niet want alle wachtwoorden bestaat samen uit verschillende salten met verschillende sha-512. Dit betekend dat het gewoon onmogelijke is om het te cracken met zoveel mogelijkeheden.  Ik zou een Rainbow Table moeten maken met alle hash op die specifieke salt.
 
 ### Despite the bad password, and the fact that Linux uses common hashing algorithms, you won’t get a match in the Rainbow Table. This is because the password is salted. To understand how salting works, find a peer who has the same password in /etc/shadow, and compare hashes.
 
+**Vergelijken**
+
+**Mij**
+```
+c2JNsxzmV7D93WogL2kSy3L05syLn6mEvB4D19tg1NspZGKSTJgEqJM8GUwWK.i7iOLh.b38JDwjG4SIyHVgn0
+```
+
+**Quincy**
+```
+
+```
+
+**Roan**
+```
+
+```
+
+**Jon**
+```
+
+```
+
+Omdat ze andere salt hebben krijgen we ook andere SHA-512 hash outputs. 
 
 
-
-
-
-### Gebruikte bronnen
+### Gebruikte bronnen  
+https://crackstation.net/
 https://medium.com/geekculture/hashed-passwords-rainbow-tables-and-salted-hashes-simply-explained-1736d431af78
 https://cybr.com/certifications-archives/hash-tables-rainbow-table-attacks-and-salts/
 https://www.timdehoog.nl/2011/11/26/wachtwoorden-md5-sha1-salt-hash-en-rainbow-tables/
-
+https://www.techtarget.com/whatis/definition/rainbow-table
+https://www.youtube.com/watch?v=irQlWaH0LPQ
+https://www.cyberciti.biz/faq/understanding-etcshadow-file/
+https://www.drchaos.com/post/understanding-rainbow-tables
+https://security.stackexchange.com/questions/233695/why-people-say-that-salt-helps-to-prevent-rainbow-table-attack
 
 ### Ervaren problemen
-[Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
+Geen
 
 ### Resultaat
-[Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).]
+Het verschillen kennen en hoe Rainbow Table werkt.
