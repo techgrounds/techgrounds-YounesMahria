@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Cloud_1/AWS-10 Virtual Private Cloud (VPC).md",
+                "file": "02_Cloud_1/AWS-05 Simple Storage Service (S3).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02_Cloud_1/AWS-10 Virtual Private Cloud (VPC).md",
+                "file": "02_Cloud_1/AWS-05 Simple Storage Service (S3).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02_Cloud_1/AWS-10 Virtual Private Cloud (VPC).md",
+                "file": "02_Cloud_1/AWS-05 Simple Storage Service (S3).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02_Cloud_1/AWS-10 Virtual Private Cloud (VPC).md"
+                "file": "02_Cloud_1/AWS-05 Simple Storage Service (S3).md"
               }
             }
           }
@@ -148,27 +148,26 @@
   },
   "active": "dcb90235efe2e7f3",
   "lastOpenFiles": [
+    "02_Cloud_1/AWS-06 Elastic Compute Cloud (EC2).md",
+    "02_Cloud_1/AWS-08 Security Groups.md",
+    "02_Cloud_1/AWS-09 Shared Responsibility Model.md",
+    "02_Cloud_1/AWS-10 Virtual Private Cloud (VPC).md",
+    "02_Cloud_1/AWS-07 Elastic Block Store (EBS).md",
+    "00_includes/AWS-10-resultaat25.png",
+    "00_includes/AWS-10-resultaat24.png",
+    "00_includes/AWS-10-resultaat23.png",
     "Pasted image 20230428102327.png",
     "02_Cloud_1/AWS-05 Simple Storage Service (S3).md",
     "02_Cloud_1/AWS-04 Core Services.md",
     "02_Cloud_1/AWS-03 6 Advantages of the cloud.md",
     "02_Cloud_1/AWS-02 AWS Pricing.md",
     "02_Cloud_1/AWS-01 AWS Global Infrastructure.md",
-    "02_Cloud_1/AWS-10 Virtual Private Cloud (VPC).md",
-    "02_Cloud_1/AWS-06 Elastic Compute Cloud (EC2).md",
-    "02_Cloud_1/AWS-09 Shared Responsibility Model.md",
-    "02_Cloud_1/AWS-08 Security Groups.md",
     "00_includes/AWS-10-resultaat22.png",
     "00_includes/AWS-10-resultaat21.png",
     "00_includes/AWS-10-resultaat20.png",
     "00_includes/AWS-10-resultaat19.png",
     "00_includes/AWS-10-resultaat18.png",
     "00_includes/AWS-10-resultaat17.png",
-    "00_includes/AWS-10-resultaat16.png",
-    "00_includes/AWS-10-resultaat15.png",
-    "00_includes/AWS-10-resultaat14.png",
-    "00_includes/AWS-10-resultaat13.png",
-    "02_Cloud_1/AWS-07 Elastic Block Store (EBS).md",
     "01_Linux_1/LNX-05 File permissions.md",
     "01_Linux_1/LNX-02 Files and directories.md",
     "01_Linux_1/LNX-06 Processes.md",

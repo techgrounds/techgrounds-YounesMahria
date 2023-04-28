@@ -3,9 +3,6 @@ Een VPC opzetten
 
 ## Key-terms
 
-### CIDR block
-
-
 ### VPC
 Het is een Virtual Private Cloud in je eigen logisch geïsoleerde omgeving binned de AWS. Je gebruikt AWS service zoals EC2 instantie, in de subnets van je VPC. Het is zelfde als je eigen netwerk in het datacenter zou kunnnen gebruiken maar dan heb je de voordelen van het schaalbare infrastructuur van AWS. 
 1) VPC Configureren
@@ -15,6 +12,13 @@ Het is een Virtual Private Cloud in je eigen logisch geïsoleerde omgeving binne
 5) Network gateways configureren
 6) Beveiligingsinstellingen configureren
 Je kan de instantie in je VPC verbinden met het internet of met je eigen datacenter.
+
+#### Elastic IP addres  
+Een 'Static IP' is een onafhankelijke lokale IP adres die je kan toewijzen bij:
+1) EC2-Instance
+2) NAT-gateway
+3) ELB
+Hierdoor wordt het niet meer gewijzigd als je de EC2-Instance stopt of opnieuw start. Hiermee zorg je ervoor dat je resources altijd bereikbaar is via hetzelfde IP-adres, zelfs wanneer je resources verplaatst of hersteld.
 
 ## Opdracht
 
@@ -125,15 +129,18 @@ Terug naar 'VPC dashboard > Launch EC2 Instances'
 ![resultaat](/00_includes/AWS-10-resultaat19.png "resultaat")
 
 ### ...with the following requirements:
-   - AMI: Amazon Linux 2  
-   - Type: t3.micro  
-   - Key pair: no key pair  
+   - **Key:** Name  
+   - **Value:** Web server
+![resultaat](/00_includes/AWS-10-resultaat23.png "resultaat")
+   - **AMI:** Amazon Linux 2  
+   - **Type:** t3.micro  
+   - **Key pair:** no key pair  
 
 #### Network settings
    - **VPC:** Lab VPC
    - **Subnet:** Public subnet 2  
    - **Auto-assign Public IP:** Enable  
-   - Security Group: Web SG  
+   - **Security Group:** Web SG  
 ![resultaat](/00_includes/AWS-10-resultaat20.png "resultaat")
    - User data:  
 ```
@@ -149,24 +156,24 @@ chkconfig httpd on
 service httpd start
 ```
    - Tag:
-   - Key: Name  
-   - Value: Web server
 
 Dan nog de instantie een 'Elastic IP address' geven.
 ![resultaat](/00_includes/AWS-10-resultaat21.png "resultaat")
 
+
 ### Connect to your server using the public IPv4 DNS name.  
 
-Mijn IPv4 DNS:
+Nadat 'Elastic IP Address' is aangeven op je 'Instance ID' dan zie je 'Public DNS' bij 'Elastic IP Address'.
+![resultaat](/00_includes/AWS-10-resultaat25.png "resultaat")
+*De reden waarom bij 'instance' het werkt als je kopieert naar je clipbaord, maar niet als je 'open adress' klit is omdat het een https url is.*
+
+Mijn IPv4 DNS van:
 ```
-ec2-3-70-113-217.eu-central-1.compute.amazonaws.com
+ec2-3-75-146-133.eu-central-1.compute.amazonaws.com
 ```
 
-Ik krijg steeds "The connection has timed out" error...
-
-
-
-
+Dit is de resultaat ervan:
+![resultaat](/00_includes/AWS-10-resultaat24.png "resultaat")
 
 ### Gebruikte bronnen
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html#using-instance-addressing-eips-allocating
@@ -174,8 +181,9 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-connect-set-up.html
 https://docs.aws.amazon.com/vpc/latest/userguide/vpc-cidr-blocks.html
 
+
 ### Ervaren problemen
-The connection has timed out krijg ik steeds bij de laaste opdracht dus ik heb opdracht 1 t/m 4 opnieuw gemaakt.
+Krijg steeds 'The connection has timed out' en ik merkte later dat ik het 'Elastic IP address' moets geven bij 'Instance' verder werkte het toen prima.
 
 ### Resultaat
-Het kunnen opzetten van een VPC
+Het kunnen opzetten van een VPC met public en private subnets en het aanwijzen op de juiste route tables. Nieuwe subnets maken en ze toevoegen bij de juist route tables. Een security group maken voor http verbinding. EC2 instance maken met aangepaste requirements.
