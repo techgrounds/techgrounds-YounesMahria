@@ -1,15 +1,36 @@
 # Retro van Team 3 van week 4
-Scrum master: Geef iedereen 10 minuten om zijn antwoorden op deze vragen te bedenken. Schrijf daarna de antwoorden op. 
 
-Iedereen: Gebruik 10 minuten om de antwoorden te bedenken op de gegeven vragen. Bespreek de antwoorden met elkaar.
+## Roan  
+### Wat ging goed?
+Sfeer is goed en gezillige groep en bij week 1 ging het beter omdat we dan zelfde opdrachten zitten dan week 2. Standsup ging goed. Op tijd zijn voor afspraken voor pauze.
 
-Achteraf: Plaats een kopie van de retro in je eigen repository.
+### Wat kan beter?
+Geen
 
-## Wat ging goed?
- - Voorbeeld: We gebruikten de Pomedoro techniek en dat was heel fijn om mee te werken.
+### Wat kunnen wij doen om het te verbeteren?
+Minder zieken mensen in 1 groep. Weinig verbeteren idee, een check-in doen rond de Q&A om te weten waar iedereen ervoor staat.
 
-## Wat kan beter?
- - Voorbeeld: We deden iets te lang over onze standups.
 
-## Wat kunnen wij doen om het te verbeteren?
- - Voorbeeld: Tijdens een standup gaan wij elkaar beter op de rit houden.
+## Jon  
+### Wat ging goed?
+Samenwerking,afspraken, sfeer ging goed, afspraken gingen goed, de presentatie gingen goed
+
+### Wat kan beter?
+ de Pomedoro beter doen en niveau vond ik groot tussen andere teamleden en persoonlijke vaker vragen stellen. Meer tijd heeft besteed na 17:00 om tot avond door werk want als ik terug kijk zou ik verder zijn gekomen
+
+### Wat kunnen wij doen om het te verbeteren?
+Veel verschil hoe andere groepen samenwerken vergelijken met die van ons. Vaker overleggen
+
+
+## Younes    
+### Wat ging goed?
+Samewerking en sfeer was ook gezellig. De afspraken komen goed na.
+
+### Wat kan beter?
+Geen
+
+### Wat kunnen wij doen om het te verbeteren?
+Minder zieken mensen. Meer check-in hoe verder gaat en dan zelf vragen of we kunnen ergens mee helpen. 
+
+
+

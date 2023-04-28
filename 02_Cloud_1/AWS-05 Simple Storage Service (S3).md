@@ -3,6 +3,7 @@ Weten hoe S3/Simple Storage Service werkt.
 
 ## Key-terms
 
+
 ### S3 / Simple Storage Service  
 Is een object gebaseerde opslag in een S3, dit wilt zeggen dat alle bestanden ongeacht van formaat (exe, jpeg, png) als objecten worden opgeslagen in een Bucket container. De namen voor de Buckets moeten globaal uniek blijven, maar dit telt ook mee wat de andere AWS accounts hebben. Er worden automatische tenmiste 3 duplicaties gemaakt voor elke objecten in de regio. Het is dus kosteneffectief en heeft gebruiksvriendelijke beheerfuncties:
 1) Kosten Optimaliseren
@@ -10,30 +11,27 @@ Is een object gebaseerde opslag in een S3, dit wilt zeggen dat alle bestanden on
 3) Toegangscontroles configureren voor specifieke zakelijke,  organisatorische en nalevingsvereisten.
 ![resultaat](/00_includes/AWS-05-resultaat.png "resultaat")
 
-### There are 4 storage classes:
-Er worden 4 categorieën genoemd voor de storage classen met korte definitie ervan.
+### There are ~~4~~ 8 storage classes:
+Er worden 5 categorieën genoemd voor de 8 storage classen met korte definitie ervan.
 
-1) **S3 Standard / General purpose** 
-	1) **S3 Standard** for frequently accessed data.  
-	2) **S3 Standard-Infrequent Access (S3 Standard-IA)** for less frequently accessed data.  
-	   
-2) **S3 Intelligent-Tiering / Unknown or changing access**  
-	1) **S3 Intelligent-Tiering** for automatic cost savings for data with unknown or changing access patterns. 
-	   
-3) **S3 One Zone / Infrequent access**  
-	1) **S3 One Zone-Infrequent Access (S3 One Zone-IA)** for less frequently accessed data. 
-	   
-4) **S3 Glacier / Archive**  
-	1) **S3 Glacier Instant Retrieval** for archive data that needs immediate access.
-	2) **S3 Glacier Flexible Retrieval (formerly S3 Glacier)** for archive data that needs immediate access.
-	3) **S3 Glacier Deep Archive (S3 Glacier Deep Archive)** for long-term archive and digital preservation with retrieval in hours at the lowest cost storage in the cloud.     
+1) **General purpose** 
+	1) **S3 Standard:** Opslag voor algemene doeleinden voor actieve, vaak gebruikte gegevens.
 
-### **S3 Outposts** 
-if you have data residency requirements that can’t be met by an existing AWS Region.
-
+2) **Unknown or changing access**  
+	1) **S3 Intelligent-Tiering:** Automatische kostenbesparingen door auto-tiering van gegevens met elk toegangspatroon.
+	   
+3) **Infrequent access**  
+	1) **S3 Standard-Infrequent Access (S3 Standard-IA):** Goedkope opslag voor gegevens die maandelijks worden geraadpleegd en het ophalen van milliseconden vereist.
+	2) **S3 One Zone-Infrequent Access (S3 One Zone-IA):** Weinig gebruikte gegevens in één AZ voor kostenbesparingen.
+	   
+4) **Archive**  
+	1) **S3 Glacier Instant Retrieval:** Goedkope opslag voor gegevens met een lange levensduur, met ophalen in milliseconden.
+	2) **S3 Glacier Flexible Retrieval (formerly S3 Glacier):** Langdurige, goedkope opslag voor back-ups en archieven, met ophaalopties van minuten tot uren.
+	3) **S3 Glacier Deep Archive (S3 Glacier Deep Archive):** Goedkoopste cloudopslag voor langdurige, zelden gebruikte archiefgegevens, binnen enkele uren op te halen
+5) **S3 on Outposts**
+	1) **S3 Outposts:** Levert objectopslag aan on-premise AWS outpost-omgevingen om te voldoen aan lokale behoeften op het gebied van gegevensverwerking en gegevensopslag
 
 ## Opdracht  
-
 Voordat we beginnen moeten we eerste nog onze AWS Free Tier activeren. We gaan nu account maken ervoor door op 'Create a Free Account' te drukken.
 ![resultaat](/00_includes/AWS-05-resultaat3.png "resultaat")
 
@@ -214,13 +212,13 @@ http://younestechgrounds25april.s3-website.eu-central-1.amazonaws.com/
 *LET OP: De URL werkt niet meer omdat de bucket verwijderd is.*
 
 
-
 ### Gebruikte bronnen
 https://aws.amazon.com/s3/
 https://aws.amazon.com/s3/storage-classes/
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteAccessPermissionsReqd.html
+https://aws.amazon.com/s3/storage-classes-infographic/
 
 ### Ervaren problemen
 Wel altijd een alternative oplossing sneller kunnen vinden dan wat er gevraagd wordt, maar dan als nog 2 oplossingen kunnen vinden. Verder gemerkt dat ik veel screenshots heb gemaakt maar stapgewijst en laten zien wat ik deed is als nog beter.
