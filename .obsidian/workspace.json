@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Cloud_1/AWS-05 Simple Storage Service (S3).md",
+                "file": "02_Cloud_1/AWS-10 Virtual Private Cloud (VPC).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02_Cloud_1/AWS-05 Simple Storage Service (S3).md",
+                "file": "02_Cloud_1/AWS-10 Virtual Private Cloud (VPC).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02_Cloud_1/AWS-05 Simple Storage Service (S3).md",
+                "file": "02_Cloud_1/AWS-10 Virtual Private Cloud (VPC).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02_Cloud_1/AWS-05 Simple Storage Service (S3).md"
+                "file": "02_Cloud_1/AWS-10 Virtual Private Cloud (VPC).md"
               }
             }
           }
@@ -148,10 +148,14 @@
   },
   "active": "dcb90235efe2e7f3",
   "lastOpenFiles": [
-    "02_Cloud_1/AWS-06 Elastic Compute Cloud (EC2).md",
-    "02_Cloud_1/AWS-04 Core Services.md",
+    "Pasted image 20230428102327.png",
     "02_Cloud_1/AWS-05 Simple Storage Service (S3).md",
+    "02_Cloud_1/AWS-04 Core Services.md",
+    "02_Cloud_1/AWS-03 6 Advantages of the cloud.md",
+    "02_Cloud_1/AWS-02 AWS Pricing.md",
+    "02_Cloud_1/AWS-01 AWS Global Infrastructure.md",
     "02_Cloud_1/AWS-10 Virtual Private Cloud (VPC).md",
+    "02_Cloud_1/AWS-06 Elastic Compute Cloud (EC2).md",
     "02_Cloud_1/AWS-09 Shared Responsibility Model.md",
     "02_Cloud_1/AWS-08 Security Groups.md",
     "00_includes/AWS-10-resultaat22.png",
@@ -172,9 +176,6 @@
     "01_Linux_1/LNX-04 Users and groups.md",
     "01_Linux_1/LNX-03 Working with text (CLI).md",
     "01_Linux_1/LNX-01 Setting Up.md",
-    "02_Cloud_1/AWS-01 AWS Global Infrastructure.md",
-    "02_Cloud_1/AWS-02 AWS Pricing.md",
-    "02_Cloud_1/AWS-03 6 Advantages of the cloud.md",
     "00_templates/retro.md",
     "00_Retro/Retro - W4 - T3.md",
     "00_Retro/Retro - W16 - T.md",

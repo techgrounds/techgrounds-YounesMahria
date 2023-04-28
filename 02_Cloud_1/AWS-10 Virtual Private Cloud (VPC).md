@@ -46,9 +46,6 @@ Vervolgens op nieuwe scherm druk je op 'Allocate'
 ![resultaat](/00_includes/AWS-10-resultaat3.png "resultaat")
 
 Your network should now look like this:
-
-
-
 ![resultaat](/00_includes/AWS-10-resultaat4.png "resultaat")
 
 ### Exercise 2:  
@@ -111,7 +108,7 @@ Druk op 'Save associations'
    - Name: Web SG  
    - Description: Enable HTTP Access  
    - VPC: Lab VPC  
-   - Inbound rule: allow HTTP access from anywhere  
+   - Inbound rule: Allow HTTP access from anywhere  
    - Outbound rule: Allow all traffic  
 
 Aan de linkerkant van je menu scroll je naar beneden totdat je bij 'Security groups' komt en vervolgens op 'Create security groups' drukken. 
@@ -160,9 +157,15 @@ Dan nog de instantie een 'Elastic IP address' geven.
 
 ### Connect to your server using the public IPv4 DNS name.  
 
+Mijn IPv4 DNS:
+```
+ec2-3-70-113-217.eu-central-1.compute.amazonaws.com
+```
+
+Ik krijg steeds "The connection has timed out" error...
 
 
-![resultaat](/00_includes/AWS-10-resultaat22.png "resultaat")
+
 
 
 ### Gebruikte bronnen
@@ -170,9 +173,9 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.htm
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-connect-set-up.html
 https://docs.aws.amazon.com/vpc/latest/userguide/vpc-cidr-blocks.html
-	
+
 ### Ervaren problemen
-[Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
+The connection has timed out krijg ik steeds bij de laaste opdracht dus ik heb opdracht 1 t/m 4 opnieuw gemaakt.
 
 ### Resultaat
 Het kunnen opzetten van een VPC
