@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Security_1/SEC-07 Passwords.md",
+                "file": "02_Cloud_1/AWS-05 Simple Storage Service (S3).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Security_1/SEC-07 Passwords.md",
+                "file": "02_Cloud_1/AWS-05 Simple Storage Service (S3).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_Security_1/SEC-07 Passwords.md",
+                "file": "02_Cloud_1/AWS-05 Simple Storage Service (S3).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Security_1/SEC-07 Passwords.md"
+                "file": "02_Cloud_1/AWS-05 Simple Storage Service (S3).md"
               }
             }
           }
@@ -148,42 +148,48 @@
   },
   "active": "dcb90235efe2e7f3",
   "lastOpenFiles": [
-    "01_Security_1/SEC-08 Detection, response and analysis.md",
-    "01_Security_1/SEC-05 Asymmetric Encryption.md",
-    "01_Security_1/SEC-04 Symmetric Encryption.md",
-    "01_Security_1/SEC-07 Passwords.md",
-    "01_Security_1/SEC-06 Public Key Infrastructure.md",
-    "00_includes/SEC-07-resultaat3.png",
-    "00_includes/SEC-07-resultaat2.png",
-    "01_Security_1/SEC-02 Firewalls.md",
-    "01_Linux_1/LNX-04 Users and groups.md",
-    "00_includes/TAKEAREGULARPAWS.PNG",
-    "01_Security_1/SEC-03 IAM.md",
-    "00_includes/SEC-04-resultaat5.png",
-    "00_includes/SEC-04-resultaat6.png",
-    "00_includes/SEC-04-resultaat4.png",
-    "00_includes/jonResultaat.png",
-    "00_includes/SEC-07-resultaat.png",
-    "00_includes/SEC-04-resultaat3.png",
-    "00_includes/image (1).png",
-    "01_Github_1/GIT-02 Markdown.md",
-    "01_Netwerken_1/NTW-03 Protocols.md",
-    "01_Netwerken_1/NTW-02 Network Devices.md",
-    "01_Netwerken_1/NTW-01 OSI stack.md",
-    "01_Linux_1/LNX-08 Cron jobs.md",
-    "01_Linux_1/LNX-07 Bash scripting.md",
+    "02_Cloud_1/AWS-06 Elastic Compute Cloud (EC2).md",
+    "02_Cloud_1/AWS-04 Core Services.md",
+    "02_Cloud_1/AWS-05 Simple Storage Service (S3).md",
+    "02_Cloud_1/AWS-10 Virtual Private Cloud (VPC).md",
+    "02_Cloud_1/AWS-09 Shared Responsibility Model.md",
+    "02_Cloud_1/AWS-08 Security Groups.md",
+    "00_includes/AWS-10-resultaat22.png",
+    "00_includes/AWS-10-resultaat21.png",
+    "00_includes/AWS-10-resultaat20.png",
+    "00_includes/AWS-10-resultaat19.png",
+    "00_includes/AWS-10-resultaat18.png",
+    "00_includes/AWS-10-resultaat17.png",
+    "00_includes/AWS-10-resultaat16.png",
+    "00_includes/AWS-10-resultaat15.png",
+    "00_includes/AWS-10-resultaat14.png",
+    "00_includes/AWS-10-resultaat13.png",
+    "02_Cloud_1/AWS-07 Elastic Block Store (EBS).md",
     "01_Linux_1/LNX-05 File permissions.md",
-    "01_Linux_1/LNX-03 Working with text (CLI).md",
     "01_Linux_1/LNX-02 Files and directories.md",
-    "00_includes/SEC-06-resultaat5.png.md",
-    "01_Security_1/SEC-01 Network Detection.md",
-    "01_Linux_1/LNX-01 Setting Up.md",
     "01_Linux_1/LNX-06 Processes.md",
-    "01_Netwerken_1/NTW-07 Networking Case Study.md",
-    "01_Netwerken_1/NTW-06 Subnetting.md",
-    "00_templates/opdracht.md",
+    "01_Linux_1/LNX-07 Bash scripting.md",
+    "01_Linux_1/LNX-04 Users and groups.md",
+    "01_Linux_1/LNX-03 Working with text (CLI).md",
+    "01_Linux_1/LNX-01 Setting Up.md",
+    "02_Cloud_1/AWS-01 AWS Global Infrastructure.md",
+    "02_Cloud_1/AWS-02 AWS Pricing.md",
+    "02_Cloud_1/AWS-03 6 Advantages of the cloud.md",
+    "00_templates/retro.md",
+    "00_Retro/Retro - W4 - T3.md",
+    "00_Retro/Retro - W16 - T.md",
+    "00_Retro/Retro - W15 - T.md",
+    "00_Retro/Retro - W14 - T.md",
+    "00_Retro/Retro - W13 - T.md",
+    "00_Retro/Retro - W12 - T.md",
+    "00_Retro/Retro - W11 - T.md",
+    "00_Retro",
+    "Nieuwe map",
+    "`/02_Cloud_1",
+    "`",
+    "02_Cloud",
+    "00_Examen",
     "01_Security_1",
-    "01_Netwerken_1/NTW-05 IP Addressing.md",
     "01_Github_1",
     "01_Netwerken_1",
     "Untitled.canvas"
