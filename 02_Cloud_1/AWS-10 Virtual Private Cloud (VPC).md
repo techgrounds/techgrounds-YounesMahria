@@ -31,6 +31,7 @@ Aan de linkerkant van je menu scroll je naar beneden totdat je bij 'Elastic IPs'
 Vervolgens op nieuwe scherm druk je op 'Allocate'
 
 ### Create a new VPC with the following requirements:  
+https://eu-central-1.console.aws.amazon.com/vpc/
    - Region: Frankfurt (eu-central-1)  
    - VPC with a public and a private subnet  
    - Name: Lab VPC  
@@ -148,8 +149,7 @@ Terug naar 'VPC dashboard > Launch EC2 Instances'
 # Install Apache Web Server and PHP
 yum install -y httpd mysql php
 # Download Lab files
-wget https://aws-tc-largeobjects.s3.amazonaws.com/CUR-TF-100-RESTRT-
-1/80-lab-vpc-web-server/lab-app.zip
+wget https://aws-tc-largeobjects.s3.amazonaws.com/CUR-TF-100-RESTRT-1/80-lab-vpc-web-server/lab-app.zip
 unzip lab-app.zip -d /var/www/html/
 # Turn on web server
 chkconfig httpd on
@@ -173,7 +173,12 @@ ec2-3-75-146-133.eu-central-1.compute.amazonaws.com
 ```
 
 Dit is de resultaat ervan:
-![resultaat](/00_includes/AWS-10-resultaat24.png "resultaat")
+![resultaat](/00_includes/AWS-10-resultaatC.png "resultaat")
+
+De VPC had deze instellingen op het einde.
+![resultaat](/00_includes/AWS-10-resultaatA.png "resultaat")
+
+![resultaat](/00_includes/AWS-10-resultaatB.png "resultaat")
 
 ### Gebruikte bronnen
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html#using-instance-addressing-eips-allocating
@@ -184,6 +189,9 @@ https://docs.aws.amazon.com/vpc/latest/userguide/vpc-cidr-blocks.html
 
 ### Ervaren problemen
 Krijg steeds 'The connection has timed out' en ik merkte later dat ik het 'Elastic IP address' moets geven bij 'Instance' verder werkte het toen prima.
+
+Ik heb gemerkt dat bij User Data een type fout zat (een enter) waardoor het apache zip file niet kon vinden en installeren, hierdoor kreeg ik gewoon de default test page.
+![resultaat](/00_includes/AWS-10-resultaat24.png "resultaat")
 
 ### Resultaat
 Het kunnen opzetten van een VPC met public en private subnets en het aanwijzen op de juiste route tables. Nieuwe subnets maken en ze toevoegen bij de juist route tables. Een security group maken voor http verbinding. EC2 instance maken met aangepaste requirements.
