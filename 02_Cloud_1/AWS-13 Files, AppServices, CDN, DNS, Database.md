@@ -24,7 +24,7 @@ AWS Elastic Beanstalk implementeert webapplicaties zodat u zich kunt concentrere
   Je uploadt je code en Elastic Beanstalk handelt automatisch de implementatie af - van capaciteitsvoorziening, load balancing en automatisch schalen tot het bewaken van de gezondheid van de applicatie. 
   
 - ##### Hoe kan ik 'Elastic Beanstalk' combineren met andere [diensten](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/AWSHowTo.html)?  
-  Je kan de volgende diensten van AWS voor je combineren.
+  Je kan de volgende diensten van AWS combineren:
   1) [**AWS CloudFormation:**](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/ebextensions-otherkeys.html) Voegt de inhoud van configuratiebestanden toe aan de AWS CloudFormation-sjabloon die uw omgeving ondersteunt, zodat u andere AWS CloudFormation-secties kunt gebruiken om geavanceerde taken in uw configuratiebestanden uit te voeren.
      
   2) [**Amazon EC2 Instances:**](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.managing.ec2.html) Wanneer u een webserveromgeving maakt, maakt AWS Elastic Beanstalk een of meer Amazon Elastic Compute Cloud (Amazon EC2) virtuele machines, ook wel Instances genoemd.
@@ -66,7 +66,7 @@ Amazon CloudFront is een content delivery network (CDN)-service die is gebouwd v
 
   
 - ##### Hoe kan ik 'Amazon CloudFront' combineren met andere diensten?  
-  Je kan de volgende diensten van AWS voor je combineren.
+  Je kan de volgende diensten van AWS combineren:
   1) **Amazon S3**: CloudFront kan worden geïntegreerd met Amazon S3 om content op te slaan en te leveren. Wanneer je een CloudFront-distributie maakt, kun je een Amazon S3-bucket selecteren als de oorsprong voor je content. CloudFront haalt vervolgens de content op uit de S3-bucket en levert deze aan eindgebruikers via het CloudFront-netwerk.
      
   2) **AWS Lambda**: Met AWS Lambda@Edge kun je aangepaste code uitvoeren in reactie op CloudFront-gebeurtenissen. Dit stelt je in staat om content aan te passen of te genereren in real-time, op basis van de kenmerken van het verzoek of de gebruiker.
@@ -107,7 +107,7 @@ Amazon Route 53 is een zeer beschikbare en schaalbare Domain Name System (DNS) w
   Binnen enkele minuten kan je aan de slag met de eenvoudige interface voor je webservices. De DNS-records zijn georganiseerd in "gehoste zones" die u configureert met de API van Route 53. Het is mogelijke om je domein over te zetten van een andere DNS-service naar Route 53. 
   
 - ##### Hoe kan ik 'Route 53' [combineren](https://aws.amazon.com/route53/features/) met andere diensten?
-  Je kan de volgende diensten van AWS voor je combineren.
+  Je kan de volgende diensten van AWS combineren:
   1) **AWS CloudWatch**: 
      
   2) **Amazon CloudFront:** Wanneer u Amazon CloudFront gebruikt om uw website-inhoud te leveren, hebben bezoekers van uw website nu toegang tot uw site in de zone apex (of "root domain"). Uw site kan bijvoorbeeld worden geopend als voorbeeld.com in plaats van www.voorbeeld.com.
@@ -154,7 +154,7 @@ https://aws.amazon.com/efs/faq/
   Door gebruik te maken van andere AWS diensten zoals VPC met EC2 instanties. Je moet wel volledige overstappen om alleen AWS diensten te gebruiken of je bouwt de omgeving op begin erin. Hierdoor krijg je geen hoge latentie vanwege de afstand tussen jouw on-premises datacentrum en AWS VPC.
   
 - ##### Hoe kan ik 'Elastic File System (EFS)' combineren met andere diensten?  
-  Je kan de volgende diensten van AWS voor je combineren.
+  Je kan de volgende diensten van AWS combineren.
   1) Amazon EC2
   2) Amazon ECS
   3) Amazon EKS
@@ -208,7 +208,12 @@ Zoals eerder aangeven kan het werken met deze 2 die on-premises vervangt:
 ##### Hoe kan ik 'Amazon Relational Database Service (Amazon RDS)'  combineren met andere diensten?  
   Je kan de volgende diensten van AWS voor je combineren.
   1) AWS Aurora
-  
+  Deze volgenden diensten zijn buiten van AWS om maar wel mogelijke:
+  1) MySQL
+  2) MariaDB
+  3) PostgreSQL
+  4) Oracle
+  5) Microsoft SQL Server
   
 ##### Wat is het verschil tussen 'Amazon Relational Database Service (Amazon RDS)'  en andere gelijksoortige diensten?
 Het belangrijkste verschillen tussen deze services is hoe ze gegevens opslaan en hoe ze toegang bieden tot die gegevens. 
