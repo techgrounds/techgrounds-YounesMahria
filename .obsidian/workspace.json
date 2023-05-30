@@ -8,31 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4d4a1c9a3c677ad6",
+            "id": "62cfd2d0ac1c2682",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02_Cloud_1/AWS-13a Onderwerpen Cloud Fundamentals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "46daf3a45ff746f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02_Cloud_1/AWS-13a Onderwerpen Cloud Fundamentals.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02_Cloud_1/AWS-13a Onderwerpen Cloud Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02_Cloud_1/AWS-13a Onderwerpen Cloud Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "02_Cloud_1/AWS-13a Onderwerpen Cloud Fundamentals.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -159,44 +138,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "46daf3a45ff746f9",
+  "active": "62cfd2d0ac1c2682",
   "lastOpenFiles": [
-    "00_includes/AWS-13a-resultaat58.png",
-    "00_includes/AWS-13-resultaat58.png",
-    "00_includes/AWS-13a-resultaat57.png",
-    "00_includes/AWS-13a-resultaat56.png",
-    "00_includes/AWS-13a-resultaat55.png",
-    "00_includes/AWS-13a-resultaat54.png",
-    "00_includes/AWS-13a-resultaat53.png",
-    "00_Examen/EXA-00 Examen voorbereidingen.md",
+    "00_Examen/EXA-XX All Terms Short (Exam Practice).md",
+    "00_Examen/EXA-02 AWS Knowledge Check.md",
+    "00_Examen/EXA-02 Network Knowledge Check.md",
+    "00_Examen/EXA-XX 6 Advantages Cloud Computing.md",
+    "00_Examen/EXA-XX API.md",
     "00_Examen/EXA-XX Aurora.md",
-    "00_Examen/EXA-XX Support Plan.md",
-    "00_Examen/EXA-XX Trusted Advisor.md",
-    "00_Examen/EXA-XX XTitle - kopie (2).md",
-    "00_Examen/EXA-XX XTitle - kopie (2) 1.md",
-    "02_Cloud_1/AWS-13a Onderwerpen Cloud Fundamentals.md",
-    "02_Cloud_1/AWS-09 Shared Responsibility Model.md",
-    "02_Cloud_1/AWS-11 ELB Auto Scaling.md",
-    "02_Cloud_1/AWS-12 Well Architected Framework - kopie.md",
-    "02_Cloud_1/AWS-13 Files, AppServices, CDN, DNS, Database.md",
-    "beschrijvingen/storage-types.md",
-    "beschrijvingen/LNX-03.md",
-    "Pasted image 20230508144834.png",
-    "Pasted image 20230509102928.png",
-    "00_includes/AWS-13a-resultaat52.png",
-    "00_includes/AWS-13a-resultaat51.png",
-    "00_Examen/EXA-XX CLI.md",
-    "Untitled.md",
-    "02_Cloud_1/S3.md",
+    "00_Examen/EXA-XX  Launching Cloud Services.md",
+    "00_Examen/EXA-00 Examen voorbereidingen.md",
+    "00_Examen/EXA-01 Cheat Sheet.md",
+    "00_Examen/EXA-XX XTitle - kopie.md",
+    "00_Examen/EXA-XX XTitle - kopie 2.md",
+    "00_Examen/EXA-XX XTitle - kopie 1.md",
+    "00_Examen/EXA-XX XXX.md",
+    "00_Examen/EXA-XX XXX 1.md",
     "00_Examen/EXA-XX Cloud Computing.md",
-    "00_Examen/EXA-XX Elastic Beanstalk.md",
-    "00_Examen/EXA-XX ELB.md",
-    "00_Examen/EXA-XX EventBridge.md",
-    "00_Examen/EXA-XX IAM - Identity and Access Management.md",
-    "00_Examen/EXA-XX Lambda.md",
-    "00_Examen/EXA-XX RDS.md",
-    "00_Examen/EXA-XX SNS.md",
-    "00_Examen/EXA-XX SQS.md",
+    "00_Examen/EXA-XX CLI.md",
+    "00_Examen/EXA-XX AWS Shared Responsibility Model.md",
+    "00_Examen/EXA-XX AWS Global Infrastructure.md",
+    "00_Examen/EXA-XX AWS CCP Practice Exam 3.md",
+    "00_Examen/EXA-XX Trusted Advisor.md",
+    "02_Cloud_1/AWS-12 Well Architected Framework - kopie.md",
+    "02_Cloud_1/AWS-13a Onderwerpen Cloud Fundamentals.md",
+    "00_Examen/EXA-XX Support Plan.md",
+    "Pasted image 20230522102952.png",
+    "00_includes/ExamPrep/AWS+CCP+Training+Notes+DCT.pdf",
+    "Pasted image 20230517145858.png",
+    "02_Cloud_1/AWS-04 Core Services.md",
+    "00_Examen/EXA-XX IAM.md",
+    "02_Cloud_1/AWS-05 Simple Storage Service (S3).md",
+    "00_includes/ExamPrep/Image-6.jpg",
+    "00_includes/ExamPrep/AWS-X-006.png",
+    "00_includes/ExamPrep/AWS-X-005.png",
+    "00_includes/ExamPrep/AWS-X-004.png",
+    "00_includes/ExamPrep/AWS-X-003.png",
+    "00_includes/ExamPrep/AWS-X-002.png",
+    "00_includes/ExamPrep/AWS-X-001.png",
+    "00_includes/ExamPrep",
+    "00_includes/Nieuwe map",
+    "00_includes/AWS-13a-resultaat58.png",
     "00_Retro",
     "Nieuwe map",
     "`/02_Cloud_1",
@@ -204,8 +186,6 @@
     "02_Cloud",
     "00_Examen",
     "01_Security_1",
-    "01_Github_1",
-    "01_Netwerken_1",
     "Untitled.canvas"
   ]
 }

@@ -34,104 +34,104 @@ Op de pdf bestand staat er dit:
 > The general tools and technologies in this list appear in no particular order. AWS services are grouped according to their primary functions. While some of these technologies will likely be covered more than others on the exam, the order and placement of them in this list are no indication of....  
 
 ### Relative weight or importance:  
-1) APIs  
-2) Cost Explorer  
-3) AWS Cost and Usage Report  
-4) AWS Command Line Interface (CLI)  
-5) Elastic Load Balancers  
-6) Amazon EC2 instance types (for example, Reserved, On-Demand, Spot)  
-7) AWS global infrastructure (for example, AWS Regions, Availability Zones)  
-8) Infrastructure as Code (IaC)  
-9) Amazon Machine Images (AMIs)  
-10) AWS Management Console  
-11) AWS Marketplace  
-12) AWS Professional Services  
-13) AWS Personal Health Dashboard  
-14) Security groups  
-15) AWS Service Catalog  
-16) AWS Service Health Dashboard  
-17) Service quotas  
-18) AWS software development kits (SDKs)  
-19) AWS Support Center  
-20) AWS Support tiers  
-21) Virtual private networks (VPNs)  
+1) [APIs](../00_Examen/EXA-XX%20API.md) 
+2) [Cost Explorer](../00_Examen/EXA-XX%20Blank.md) 
+3) [AWS Cost and Usage Report](../00_Examen/EXA-XX%20Blank.md) 
+4) [AWS Command Line Interface (CLI)](../00_Examen/EXA-XX%20CLI.md) +
+5) [Elastic Load Balancers](../00_Examen/EXA-XX%20ELB.md) +
+6) [Amazon EC2 instance types (for example, Reserved, On-Demand, Spot)](../00_Examen/EXA-XX%20Blank.md) 
+7) [AWS global infrastructure (for example, AWS Regions, Availability Zones)](../00_Examen/EXA-XX%20AWS%20Global%20Infrastructure.md) 
+8) [Infrastructure as Code (IaC)](../00_Examen/EXA-XX%20Blank.md) 
+9) [Amazon Machine Images (AMIs)](../00_Examen/EXA-XX%20Blank.md) 
+10) [AWS Management Console](../00_Examen/EXA-XX%20Blank.md) 
+11) [AWS Marketplace](../00_Examen/EXA-XX%20Blank.md) 
+12) [AWS Professional Services](../00_Examen/EXA-XX%20Blank.md) 
+13) [AWS Personal Health Dashboard](../00_Examen/EXA-XX%20Blank.md) 
+14) [Security groups](../00_Examen/EXA-XX%20Blank.md) 
+15) [AWS Service Catalog](../00_Examen/EXA-XX%20Blank.md) 
+16) [AWS Service Health Dashboard](../00_Examen/EXA-XX%20Blank.md) 
+17) [Service quotas](../00_Examen/EXA-XX%20Blank.md) 
+18) [AWS software development kits (SDKs)](../00_Examen/EXA-XX%20Blank.md) 
+19) [AWS Support Center](../00_Examen/EXA-XX%20Support%20Plan.md) +
+20) [AWS Support tiers](../00_Examen/EXA-XX%20Support%20Plan.md) +
+21) [Virtual private networks (VPNs)](../00_Examen/EXA-XX%20Blank.md) 
 
 ### AWS services and features 
 1) **Analytics:**  
-	1) Amazon Athena  
-	2) Amazon Kinesis  
-	3) Amazon QuickSight  
+	1) [Amazon Athena](../00_Examen/EXA-XX%20Blank.md) 
+	2) [Amazon Kinesis](../00_Examen/EXA-XX%20Blank.md) 
+	3) [Amazon QuickSight](../00_Examen/EXA-XX%20Blank.md) 
 2) **Application Integration:**  
-	1) Amazon Simple Notification Service (Amazon SNS)  
-	2) Amazon Simple Queue Service (Amazon SQS)  
+	1) [Amazon Simple Notification Service (Amazon SNS)](../00_Examen/EXA-XX%20SNS.md) +
+	2) [Amazon Simple Queue Service (Amazon SQS)](../00_Examen/EXA-XX%20SQS.md) +
 3) **Compute and Serverless:**  
-	1) AWS Batch  
-	2) Amazon EC2  
-	3) AWS Elastic Beanstalk  
-	4) AWS Lambda  
-	5) Amazon Lightsail  
-	6) Amazon WorkSpaces  
+	1) [AWS Batch](../00_Examen/EXA-XX%20Blank.md) 
+	2) [Amazon EC2](../00_Examen/EXA-XX%20Blank.md) 
+	3) [AWS Elastic Beanstalk](../00_Examen/EXA-XX%20Elastic%20Beanstalk.md) +
+	4) [AWS Lambda](../00_Examen/EXA-XX%20Lambda.md) +
+	5) [Amazon Lightsail](../00_Examen/EXA-XX%20Blank.md) 
+	6) [Amazon WorkSpaces](../00_Examen/EXA-XX%20Blank.md) 
 4) **Containers:**  
-	1) Amazon Elastic Container Service (Amazon ECS)  
-	2) Amazon Elastic Kubernetes Service (Amazon EKS)  
-	3) AWS Fargate  
+	1) [Amazon Elastic Container Service (Amazon ECS)](../00_Examen/EXA-XX%20Blank.md) 
+	2) [Amazon Elastic Kubernetes Service (Amazon EKS)](../00_Examen/EXA-XX%20Blank.md) 
+	3) [AWS Fargate](../00_Examen/EXA-XX%20Blank.md) 
 5) **Database:**  
-	1) Amazon Aurora  
-	2) Amazon DynamoDB  
-	3) Amazon ElastiCache  
-	4) Amazon RDS  
-	5) Amazon Redshift  
+	1) [Amazon Aurora](../00_Examen/EXA-XX%20Aurora.md) +
+	2) [Amazon DynamoDB](../00_Examen/EXA-XX%20DynamoDB.md) +
+	3) [Amazon ElastiCache](../00_Examen/EXA-XX%20Blank.md) 
+	4) [Amazon RDS](../00_Examen/EXA-XX%20RDS.md) +
+	5) [Amazon Redshift](../00_Examen/EXA-XX%20Blank.md) 
 6) **Developer Tools:**  
-	1) AWS CodeBuild  
-	2) AWS CodeCommit  
-	3) AWS CodeDeploy  
-	4) AWS CodePipeline  
-	5) AWS CodeStar  
+	1) [AWS CodeBuild](../00_Examen/EXA-XX%20Blank.md) 
+	2) [AWS CodeCommit](../00_Examen/EXA-XX%20Blank.md) 
+	3) [AWS CodeDeploy](../00_Examen/EXA-XX%20Blank.md) 
+	4) [AWS CodePipeline](../00_Examen/EXA-XX%20Blank.md) 
+	5) [AWS CodeStar](../00_Examen/EXA-XX%20Blank.md) 
 7) **Customer Engagement:**  
-	1) Amazon Connect  
+	1) [Amazon Connect](../00_Examen/EXA-XX%20Blank.md) 
 8) **Management, Monitoring, and Governance:**  
-	1) AWS Auto Scaling  
-	2) AWS Budgets  
-	3) AWS CloudFormation  
-	4) AWS CloudTrail  
-	5) Amazon CloudWatch  
-	6) AWS Config  
-	7) AWS Cost and Usage Report  
-	8) Amazon EventBridge (Amazon CloudWatch Events)  
-	9) AWS License Manager  
-	10) AWS Managed Services  
-	11) AWS Organizations  
-	12) AWS Secrets Manager  
-	13) AWS Systems Manager  
-	14) AWS Systems Manager Parameter Store  
-	15) AWS Trusted Advisor  
-9) **Networking and Content Delivery:**  
-	1) Amazon API Gateway  
-	2) Amazon CloudFront  
-	3) AWS Direct Connect  
-	4) Amazon Route 53  
-	5) Amazon VPC  
-10) **Security, Identity, and Compliance:**  
-	1) AWS Artifact  
-	2) AWS Certificate Manager (ACM)  
-	3) AWS CloudHSM  
-	4) Amazon Cognito  
-	5) Amazon Detective  
-	6) Amazon GuardDuty  
-	7) AWS Identity and Access Management (IAM)  
-	8) Amazon Inspector  
-	9) AWS License Manager  
-	10) Amazon Macie  
-	11) AWS Shield  
-	12) AWS WAF  
-11) **Storage:**  
-	1) AWS Backup  
-	2) Amazon Elastic Block Store (Amazon EBS)  
-	3) Amazon Elastic File System (Amazon EFS)  
-	4) Amazon S3  
-	5) Amazon S3 Glacier  
-	6) AWS Snowball Edge  
-	7) AWS Storage Gateway
+	1) [AWS Auto Scaling](../00_Examen/EXA-XX%20Blank.md) 
+	2) [AWS Budgets](../00_Examen/EXA-XX%20Blank.md) 
+	3) [AWS CloudFormation](../00_Examen/EXA-XX%20Blank.md) 
+	4) [AWS CloudTrail](../00_Examen/EXA-XX%20CloudTrail.md) +
+	5) [Amazon CloudWatch](../00_Examen/EXA-XX%20CloudWatch.md) +
+	6) [AWS Config](../00_Examen/EXA-XX%20Config.md) +
+	7) [AWS Cost and Usage Report](../00_Examen/EXA-XX%20Blank.md) 
+	8) [Amazon EventBridge (Amazon CloudWatch Events)](../00_Examen/EXA-XX%20EventBridge.md) +
+	9) [AWS License Manager](../00_Examen/EXA-XX%20Blank.md) 
+9) AWS Managed Services 
+	11) [AWS Organizations](../00_Examen/EXA-XX%20Blank.md) 
+	12) [AWS Secrets Manager](../00_Examen/EXA-XX%20Blank.md) 
+	13) [AWS Systems Manager](../00_Examen/EXA-XX%20Blank.md) 
+	14) [AWS Systems Manager Parameter Store](../00_Examen/EXA-XX%20Blank.md) 
+	15) [AWS Trusted Advisor](../00_Examen/EXA-XX%20Trusted%20Advisor.md) +
+10) **Networking and Content Delivery:**  
+	1) [Amazon API Gateway](../00_Examen/EXA-XX%20Blank.md) 
+	2) [Amazon CloudFront](../00_Examen/EXA-XX%20Blank.md) 
+	3) [AWS Direct Connect](../00_Examen/EXA-XX%20Blank.md) 
+	4) [Amazon Route 53](../00_Examen/EXA-XX%20Blank.md) 
+	5) [Amazon VPC](../00_Examen/EXA-XX%20Blank.md) 
+11) **Security, Identity, and Compliance:**  
+	1) [AWS Artifact](../00_Examen/EXA-XX%20Blank.md) 
+	2) [AWS Certificate Manager (ACM)](../00_Examen/EXA-XX%20Blank.md) 
+	3) [AWS CloudHSM](../00_Examen/EXA-XX%20Blank.md) 
+	4) [Amazon Cognito](../00_Examen/EXA-XX%20Blank.md) 
+	5) [Amazon Detective](../00_Examen/EXA-XX%20Blank.md) 
+	6) [Amazon GuardDuty](../00_Examen/EXA-XX%20Blank.md) 
+	7) [AWS Identity and Access Management (IAM)](../00_Examen/EXA-XX%20IAM.md) +
+	8) [Amazon Inspector](../00_Examen/EXA-XX%20Blank.md) 
+	9) [AWS License Manager](../00_Examen/EXA-XX%20Blank.md) 
+	10) [Amazon Macie](../00_Examen/EXA-XX%20Blank.md) 
+	11) [AWS Shield](../00_Examen/EXA-XX%20Blank.md) 
+	12) [AWS WAF](../00_Examen/EXA-XX%20Blank.md) 
+12) **Storage:**  
+	1) [AWS Backup](../00_Examen/EXA-XX%20Blank.md) 
+	2) [Amazon Elastic Block Store (Amazon EBS)](../00_Examen/EXA-XX%20EBS.md) 
+	3) [Amazon Elastic File System (Amazon EFS)](../00_Examen/EXA-XX%20EFS.md) +
+	4) [Amazon S3](../00_Examen/EXA-XX%20Blank.md) 
+	5) [Amazon S3 Glacier](../00_Examen/EXA-XX%20Blank.md) 
+	6) [AWS Snowball Edge](../00_Examen/EXA-XX%20Blank.md) 
+	7) [AWS Storage Gateway](../00Examen/EXA-XX%20Blank.md) 
 
 ### Gebruikte bronnen
 https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf
