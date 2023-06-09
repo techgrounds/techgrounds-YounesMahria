@@ -4,18 +4,95 @@
     "type": "split",
     "children": [
       {
-        "id": "9b9dd113fe54a645",
+        "id": "6ef6f2d1b6277b6d",
         "type": "tabs",
         "children": [
           {
-            "id": "62cfd2d0ac1c2682",
+            "id": "2b64593ed1ba4a7d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "04_Project/PRO-01 Cloud.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e376fc1b27b90bbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04_Project/Tijdslog/Dag 5 - Juni 9.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fe883b71a85b10f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04_Project/Planning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f3dd2016c5ef838c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04_Project/PlanningAndTools.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eb9583321eddc355",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04_Project/Tijdslog/Dag 2 - Juni 6.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c3105f16932b4ed0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04_Project/Tijdslog/Dag 4 - Juni 8.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e288b653469e773",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04_Project/Beslissing Documentatie.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,6 +137,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "2ab34f7fae01004f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -81,6 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "04_Project/Tijdslog/Dag 5 - Juni 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "04_Project/Tijdslog/Dag 5 - Juni 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +205,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "04_Project/Tijdslog/Dag 5 - Juni 9.md"
+              }
             }
           }
         ]
@@ -138,37 +227,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "62cfd2d0ac1c2682",
+  "active": "e376fc1b27b90bbc",
   "lastOpenFiles": [
-    "00_Examen/EXA-XX All Terms Short (Exam Practice).md",
-    "00_Examen/EXA-02 AWS Knowledge Check.md",
-    "00_Examen/EXA-02 Network Knowledge Check.md",
-    "00_Examen/EXA-XX 6 Advantages Cloud Computing.md",
-    "00_Examen/EXA-XX API.md",
-    "00_Examen/EXA-XX Aurora.md",
-    "00_Examen/EXA-XX  Launching Cloud Services.md",
-    "00_Examen/EXA-00 Examen voorbereidingen.md",
-    "00_Examen/EXA-01 Cheat Sheet.md",
-    "00_Examen/EXA-XX XTitle - kopie.md",
-    "00_Examen/EXA-XX XTitle - kopie 2.md",
-    "00_Examen/EXA-XX XTitle - kopie 1.md",
-    "00_Examen/EXA-XX XXX.md",
-    "00_Examen/EXA-XX XXX 1.md",
-    "00_Examen/EXA-XX Cloud Computing.md",
-    "00_Examen/EXA-XX CLI.md",
-    "00_Examen/EXA-XX AWS Shared Responsibility Model.md",
-    "00_Examen/EXA-XX AWS Global Infrastructure.md",
-    "00_Examen/EXA-XX AWS CCP Practice Exam 3.md",
-    "00_Examen/EXA-XX Trusted Advisor.md",
-    "02_Cloud_1/AWS-12 Well Architected Framework - kopie.md",
-    "02_Cloud_1/AWS-13a Onderwerpen Cloud Fundamentals.md",
-    "00_Examen/EXA-XX Support Plan.md",
+    "04_Project/Tijdslog/Dag 4 - Juni 8.md",
+    "04_Project/Tijdslog/Dag 5 - Juni 9.md",
+    "04_Project/Beslissing Documentatie v0.9.0.md",
+    "04_Project/Tijdslog/Dag 3 - Juni 7.md",
+    "04_Project/Project Info.md",
+    "04_Project/Planning.md",
+    "04_Project/Beslissing Documentatie.md",
+    "04_Project/PRO-01 Cloud.md",
+    "04_Project/PlanningAndTools.md",
+    "04_Project/Beslissing Documentatie 1.md",
+    "04_Project/Tijdslog/Dag 2 - Juni 6.md",
+    "04_Project/Tijdslog/Dag 1 - Juni 5.md",
+    "04_Project/Ontwerp Documentatie.md",
+    "01_Linux_1/LNX-01 Setting Up.md",
+    "04_Project/img/AWS Architectuur Huidige Situatie.png",
+    "04_Project/img",
+    "04_Project/Nieuwe map",
+    "04_Project/Planning 1.md",
+    "04_Project/Code",
+    "04_Project/Tijdslog/Dag 10 - Juni 16.md",
+    "04_Project/Tijdslog/Dag 9 - Juni 15.md",
+    "04_Project/Tijdslog/Dag 8 - Juni 14.md",
+    "04_Project/Tijdslog/Dag 7 - Juni 13.md",
+    "04_Project/Tijdslog/Dag 6 - Juni 12.md",
+    "04_Project/Tijdslog/Dag 6 - Juni.md",
+    "04_Project/Tijdslog/Dag 6 - Juni 8.md",
+    "04_Project/Tijdslog/Dag 6 - Juni 7.md",
+    "04_Project/Tijdslog/Dag 6 - Juni 2.md",
+    "04_Project/Tijdslog/Dag 6 - Juni 1.md",
+    "04_Project/Tijdslog",
+    "01_Github_1/GIT-01 Git en GitHub.md",
+    "04_Project/PRO-01 Cloud.docx",
+    "Untitled.canvas",
     "Pasted image 20230522102952.png",
     "00_includes/ExamPrep/AWS+CCP+Training+Notes+DCT.pdf",
     "Pasted image 20230517145858.png",
-    "02_Cloud_1/AWS-04 Core Services.md",
-    "00_Examen/EXA-XX IAM.md",
-    "02_Cloud_1/AWS-05 Simple Storage Service (S3).md",
     "00_includes/ExamPrep/Image-6.jpg",
     "00_includes/ExamPrep/AWS-X-006.png",
     "00_includes/ExamPrep/AWS-X-005.png",
@@ -178,14 +274,7 @@
     "00_includes/ExamPrep/AWS-X-001.png",
     "00_includes/ExamPrep",
     "00_includes/Nieuwe map",
-    "00_includes/AWS-13a-resultaat58.png",
     "00_Retro",
-    "Nieuwe map",
-    "`/02_Cloud_1",
-    "`",
-    "02_Cloud",
-    "00_Examen",
-    "01_Security_1",
-    "Untitled.canvas"
+    "Nieuwe map"
   ]
 }

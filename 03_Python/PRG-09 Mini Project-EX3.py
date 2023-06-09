@@ -4,6 +4,7 @@
 # This is a 2-player game, where one player inputs “X” and the other player inputs “O”.
 # Bonus: create a single-player version that you can play against the computer
 
+import random;
 
 
-# print(f"");
+
