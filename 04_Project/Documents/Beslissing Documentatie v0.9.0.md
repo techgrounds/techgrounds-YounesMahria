@@ -79,5 +79,5 @@ De tweede verandering is gebruik maken van Auto Scaling Groups en Elastic Load B
 - ----Elastic Load Balancer: Wanneer AZ1a uitvalt kunnen we overschakelen naar AZ1b o AZ1c. Hierdoor zal het tijdje duren voordat het uit
 
 
-- AWS Transit gateway
+- AWS Transist gateway
 

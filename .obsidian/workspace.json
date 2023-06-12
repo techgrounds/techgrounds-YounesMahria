@@ -8,48 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2b64593ed1ba4a7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04_Project/PRO-01 Cloud.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e376fc1b27b90bbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_Project/Tijdslog/Dag 5 - Juni 9.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fe883b71a85b10f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04_Project/Planning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f3dd2016c5ef838c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04_Project/PlanningAndTools.md",
+                "file": "04_Project/Documents/Handleiding.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,21 +42,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9e288b653469e773",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04_Project/Beslissing Documentatie.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04_Project/Tijdslog/Dag 5 - Juni 9.md",
+                "file": "04_Project/Documents/Handleiding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04_Project/Tijdslog/Dag 5 - Juni 9.md",
+                "file": "04_Project/Documents/Handleiding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_Project/Tijdslog/Dag 5 - Juni 9.md"
+                "file": "04_Project/Documents/Handleiding.md"
               }
             }
           }
@@ -229,8 +180,18 @@
   },
   "active": "e376fc1b27b90bbc",
   "lastOpenFiles": [
-    "04_Project/Tijdslog/Dag 4 - Juni 8.md",
+    "04_Project/Documents/Beslissing Documentatie v0.9.0.md",
+    "04_Project/Documents/Handleiding.md",
     "04_Project/Tijdslog/Dag 5 - Juni 9.md",
+    "04_Project/Documents/Project Info.md",
+    "04_Project/Documents/PRO-01 Cloud.md",
+    "04_Project/Documents/PlanningAndTools.md",
+    "04_Project/Documents/Planning.md",
+    "04_Project/Documents/Ontwerp Documentatie.md",
+    "04_Project/Documents/Beslissing Documentatie.md",
+    "04_Project/Documents/Beslissing Documentatie 1.md",
+    "04_Project/Documents",
+    "04_Project/Tijdslog/Dag 4 - Juni 8.md",
     "04_Project/Beslissing Documentatie v0.9.0.md",
     "04_Project/Tijdslog/Dag 3 - Juni 7.md",
     "04_Project/Project Info.md",
@@ -250,16 +211,7 @@
     "04_Project/Code",
     "04_Project/Tijdslog/Dag 10 - Juni 16.md",
     "04_Project/Tijdslog/Dag 9 - Juni 15.md",
-    "04_Project/Tijdslog/Dag 8 - Juni 14.md",
-    "04_Project/Tijdslog/Dag 7 - Juni 13.md",
-    "04_Project/Tijdslog/Dag 6 - Juni 12.md",
-    "04_Project/Tijdslog/Dag 6 - Juni.md",
-    "04_Project/Tijdslog/Dag 6 - Juni 8.md",
-    "04_Project/Tijdslog/Dag 6 - Juni 7.md",
-    "04_Project/Tijdslog/Dag 6 - Juni 2.md",
-    "04_Project/Tijdslog/Dag 6 - Juni 1.md",
     "04_Project/Tijdslog",
-    "01_Github_1/GIT-01 Git en GitHub.md",
     "04_Project/PRO-01 Cloud.docx",
     "Untitled.canvas",
     "Pasted image 20230522102952.png",
@@ -274,7 +226,6 @@
     "00_includes/ExamPrep/AWS-X-001.png",
     "00_includes/ExamPrep",
     "00_includes/Nieuwe map",
-    "00_Retro",
-    "Nieuwe map"
+    "00_Retro"
   ]
 }
