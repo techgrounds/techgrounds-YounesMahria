@@ -76,7 +76,13 @@ Ten eerste wat gaat er veranderd worden is om van 2 naar 1 region te gaan. Gezie
 De tweede verandering is gebruik maken van Auto Scaling Groups en Elastic Load Balancer voor AZs. Dat wilt zeggen als volgt:
 - Auto-Scaling: Wanneer meer verkeer kunnen we meer instance aanmaken voor Webserver alleen. Dit is dus alleen voor VPC 1 omdat verkeer bij VPC2 nooit veranderd.
 - Multi-AZ configuratie: Wanneer een AZ uitvalt dan is de andere nog beschikbaar.
+
+
+	![AWS Architectuur Huidige Situatie](/04_Project/img/AWS%20Architectuur%20Nieuwe%20Ontwerp.png "AWS Architectuur Huidige Situatie")
+
+
 - ----Elastic Load Balancer: Wanneer AZ1a uitvalt kunnen we overschakelen naar AZ1b o AZ1c. Hierdoor zal het tijdje duren voordat het uit
+
 
 
 - AWS Transist gateway
