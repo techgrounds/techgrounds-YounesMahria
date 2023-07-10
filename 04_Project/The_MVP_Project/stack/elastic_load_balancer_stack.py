@@ -29,12 +29,6 @@ class ElasticLoadBalancerStack(cdk.Stack):
         super().__init__(scope, id, **kwargs)
 
         app_prd_vpc = vpc_stack.app_prd_vpc
-        management_prd_vpc = vpc_stack.management_prd_vpc
-        #proxy_server = ec2_stack.proxy_server
-        management_server = ec2_stack.management_server
-        app_product_role = iam_stack.app_product_role
-        management_server_role = iam_stack.management_server_role
-        security_group_web_server = security_group_stack.security_group_web_server
         server_certificate_arn = certificate_stack.server_certificate_arn
         web_server_auto_scaling_group = auto_scaling_group_stack.web_server_auto_scaling_group
         security_group_load_balancer = security_group_stack.security_group_load_balancer
@@ -112,46 +106,6 @@ class ElasticLoadBalancerStack(cdk.Stack):
 
         # Set the TLS security policy for the HTTPS listener
         https_listener.ssl_policy = tls_policy
-
-
-        #### Management Server
-        """       
-
-        # Create a new Network Load Balancer in the management_prd_vpc
-        nlb_management_server = elbv2.NetworkLoadBalancer(self, "ManagementNLB",
-            load_balancer_name="ManagementServer",
-            vpc=management_prd_vpc,
-            internet_facing=True,
-            vpc_subnets=ec2.SubnetSelection(subnet_type=ec2.SubnetType.PUBLIC)
-        )
-
-        # Create a target group for the management server
-        target_group_management = elbv2.NetworkTargetGroup(
-            self,
-            "ManagementTargetGroup",
-            target_group_name="TargetGroupManagement",
-            vpc=management_prd_vpc,
-            port=3389,
-            protocol=elbv2.Protocol.TCP,
-            target_type=elbv2.TargetType.INSTANCE,
-            targets=[management_server],
-            health_check=elbv2.HealthCheck(
-                protocol=elbv2.Protocol.TCP,
-                port="3389",
-                timeout=cdk.Duration.seconds(5),
-                healthy_threshold_count=2,
-                unhealthy_threshold_count=6,
-                interval=cdk.Duration.seconds(10)
-            )
-        )
-
-        # Create a listener for RDP traffic on port 3389 and add the target group
-        rdp_listener = nlb_management_server.add_listener("RDPListener",
-            port=3389,
-            protocol=elbv2.Protocol.TCP,
-            default_target_groups=[target_group_management]
-        )
-        """       
 
         """       
         # Add the target group to the load balancer

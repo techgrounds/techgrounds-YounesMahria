@@ -218,6 +218,9 @@
   "active": "941c97bc91eb884c",
   "lastOpenFiles": [
     "04_Project/The_MVP_Project/cdk.out/synth.lock",
+    "04_Project/The_MVP_Project/certificates/mydomain.crt",
+    "04_Project/The_MVP_Project/certificates/mydomain.csr",
+    "04_Project/The_MVP_Project/certificates/mydomain.key",
     "04_Project/Documents/Ontwerp Documentatie v1.0.1.md",
     "04_Project/Tijdslog/Dag 19 - Juli 3.md",
     "04_Project/Tijdslog/Dag 23 - Juli 10.md",
@@ -230,8 +233,6 @@
     "04_Project/The_MVP_Project/cdk.out/read.25108.1.lock",
     "04_Project/The_MVP_Project/cdk.out/read.13172.1.lock",
     "04_Project/The_MVP_Project/cdk.out/read.38812.1.lock",
-    "04_Project/The_MVP_Project/cdk.out/read.32356.1.lock",
-    "04_Project/The_MVP_Project/cdk.out/read.10092.1.lock",
     "04_Project/Tijdslog/Dag 21 - Juli 6.md",
     "04_Project/Tijdslog/Dag 20 - Juli 4.md",
     "04_Project/Tijdslog/Dag 13 - Juni 21.md",
