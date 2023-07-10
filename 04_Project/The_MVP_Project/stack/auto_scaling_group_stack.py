@@ -21,7 +21,7 @@ from constructs import Construct
 from stack._variables import (
     AMAZ_INSTANCE_TYPE,
     AMAZ_LINUX,
-    #USER_DATA,
+    USER_DATA,
     AMAZ_WINDOWS,
     COOLDOWN
 )
@@ -42,45 +42,6 @@ class AutoScalingGroupStack(cdk.Stack):
         app_product_role = iam_stack.app_product_role
         management_server_role = iam_stack.management_server_role
 
-
-        # Read the contents of the user data file
-        with open('userdata/web-server-user-data.sh', 'r') as file:
-            web_server_user_data = file.read()
-
-        # Create a UserData object from the file contents
-        web_server_user_data_object = ec2.UserData.custom(web_server_user_data)
-
-        USER_DATA = web_server_user_data_object
-
-        """
-        # Create an Auto Scaling group for the web server instances
-        web_server_auto_scaling_group = autoscaling.AutoScalingGroup(self, "AutoScalingGroup",
-            vpc=app_prd_vpc,
-            auto_scaling_group_name="web-server",
-            instance_type=ec2.InstanceType(AMAZ_INSTANCE_TYPE),
-            machine_image=AMAZ_LINUX,
-            key_name=ec2_app_prd_key,
-            security_group=security_group_web_server,
-            user_data=USER_DATA,
-            vpc_subnets=ec2.SubnetSelection(subnet_type=ec2.SubnetType.PRIVATE_WITH_EGRESS),
-            block_devices=[
-                autoscaling.BlockDevice(
-                    device_name='/dev/xvda',
-                    volume=autoscaling.BlockDeviceVolume.ebs(
-                        volume_size=8,
-                        encrypted=True,
-                    )
-                )
-            ],
-            role=app_product_role,
-            min_capacity=1,
-            max_capacity=3,
-            health_check=autoscaling.HealthCheck.ec2(
-                grace=cdk.Duration.seconds(60)
-            )
-        )
-        """
-        
         # Create an Auto Scaling group
         web_server_auto_scaling_group = autoscaling.AutoScalingGroup(
             self,
@@ -110,47 +71,6 @@ class AutoScalingGroupStack(cdk.Stack):
             "Value": "web_server",
             "PropagateAtLaunch": True
         }])
-
-        """    
-         
-        # Create an Auto Scaling group for the web server instances
-        web_server_auto_scaling_group = autoscaling.AutoScalingGroup(self, "AutoScalingGroup",
-            vpc=app_prd_vpc,
-            auto_scaling_group_name="web-server",
-            instance_type=ec2.InstanceType(AMAZ_INSTANCE_TYPE),
-            machine_image=ec2.MachineImage.generic_linux(
-                {"eu-central-1": "ami-08b66382534b75845"}
-            ),
-            key_name=ec2_app_prd_key,
-            security_group=security_group_web_server,
-            user_data=USER_DATA,
-            vpc_subnets=ec2.SubnetSelection(subnet_type=ec2.SubnetType.PRIVATE_ISOLATED),
-            block_devices=[
-                autoscaling.BlockDevice(
-                    device_name='/dev/xvda',
-                    volume=autoscaling.BlockDeviceVolume.ebs(
-                        volume_size=8,
-                        encrypted=True,
-                    )
-                )
-            ],
-            role=app_product_role,
-            min_capacity=1,
-            max_capacity=3,
-            health_check=autoscaling.HealthCheck.ec2(
-                grace=cdk.Duration.seconds(60)
-            )
-        )
-
-
-        # Tag the instances launched by the Auto Scaling group
-        web_server_auto_scaling_group.node.default_child.add_property_override("Tags", [{
-            "Key": "Name",
-            "Value": "web_server",
-            "PropagateAtLaunch": True
-        }]
-        )
-        """
 
         # Create a Metric object for the CPU utilization of the instances in the Auto Scaling group
         cpu_metric = cloudwatch.Metric(
