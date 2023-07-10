@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_Project/Documents/All Codes.md",
+                "file": "04_Project/Tijdslog/Dag 23 - Juli 10.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_Project/Documents/Handleiding.md",
+                "file": "04_Project/Documents/Beslissing Documentatie v1.0.1.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_Project/Tijdslog/Dag 2 - Juni 6.md",
+                "file": "04_Project/Tijdslog/Dag 19 - Juli 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_Project/Tijdslog/Dag 7 - Juni 13.md",
+                "file": "04_Project/Tijdslog/Dag 8 - Juni 14.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,14 +73,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_Project/Documents/Beslissing Documentatie v0.9.0.md",
+                "file": "02_Cloud_1/AWS-10 Virtual Private Cloud (VPC).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04_Project/Tijdslog/Dag 7 - Juni 13.md",
+                "file": "04_Project/Documents/Beslissing Documentatie v1.0.1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04_Project/Tijdslog/Dag 7 - Juni 13.md",
+                "file": "04_Project/Documents/Beslissing Documentatie v1.0.1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_Project/Tijdslog/Dag 7 - Juni 13.md"
+                "file": "04_Project/Documents/Beslissing Documentatie v1.0.1.md"
               }
             }
           }
@@ -215,46 +215,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c3105f16932b4ed0",
+  "active": "941c97bc91eb884c",
   "lastOpenFiles": [
-    "04_Project/Tijdslog/Dag 6 - Juni 12.md",
-    "04_Project/Tijdslog/Dag 7 - Juni 13.md",
-    "04_Project/Tijdslog/Dag 5 - Juni 9.md",
-    "04_Project/Tijdslog/Dag 4 - Juni 8.md",
-    "04_Project/Documents/Beslissing Documentatie v0.9.0.md",
+    "04_Project/The_MVP_Project/cdk.out/synth.lock",
+    "04_Project/Documents/Ontwerp Documentatie v1.0.1.md",
+    "04_Project/Tijdslog/Dag 19 - Juli 3.md",
+    "04_Project/Tijdslog/Dag 23 - Juli 10.md",
+    "04_Project/Tijdslog/Dag 24 - Juli 11.md",
+    "04_Project/Tijdslog/Dag 22 - Juli 7.md",
+    "04_Project/The_MVP_Project/cdk.out/read.36564.1.lock",
+    "04_Project/The_MVP_Project/cdk.out/read.33352.1.lock",
+    "04_Project/The_MVP_Project/stack/combine_stack.py",
+    "04_Project/The_MVP_Project/stack/elasticip_stack.py",
+    "04_Project/The_MVP_Project/cdk.out/read.25108.1.lock",
+    "04_Project/The_MVP_Project/cdk.out/read.13172.1.lock",
+    "04_Project/The_MVP_Project/cdk.out/read.38812.1.lock",
+    "04_Project/The_MVP_Project/cdk.out/read.32356.1.lock",
+    "04_Project/The_MVP_Project/cdk.out/read.10092.1.lock",
+    "04_Project/Tijdslog/Dag 21 - Juli 6.md",
+    "04_Project/Tijdslog/Dag 20 - Juli 4.md",
+    "04_Project/Tijdslog/Dag 13 - Juni 21.md",
+    "04_Project/Tijdslog/Dag 8 - Juni 14.md",
+    "04_Project/The_MVP_Project v1.0/README.md",
+    "04_Project/The_MVP_Project v1.0/The_MVP_Project/README.md",
+    "04_Project/Documents/Beslissing Documentatie v1.0.1.md",
+    "04_Project/Documents/Ontwerp Documentatie v1.0.0.md",
+    "04_Project/Documents/Handleiding.md",
+    "04_Project/Documents/Beslissing Documentatie v1.0.0.md",
+    "04_Project/Documents/Beslissing Documentatie 1.md",
+    "04_Project/Tijdslog/Dag 18 - Juni 30.md",
+    "04_Project/Tijdslog/Dag 17 - Juni 29.md",
+    "04_Project/Tijdslog/Dag 14 - Juni 22.md",
+    "04_Project/Tijdslog/Dag 15 - Juni 26.md",
+    "04_Project/Tijdslog/Dag 16- Juni 27.md",
+    "04_Project/Tijdslog/Dag 16 - Juni 28.md",
+    "02_Cloud_1/AWS-10 Virtual Private Cloud (VPC).md",
+    "02_Cloud_1/AWS-07 Elastic Block Store (EBS).md",
+    "02_Cloud_1/AWS-06 Elastic Compute Cloud (EC2).md",
     "04_Project/img/AWS Architectuur Nieuwe Ontwerp.png",
     "04_Project/img/AWS Architectuur Nieuwe Ontwerp2.png",
-    "04_Project/Documents/All Codes.md",
-    "04_Project/Documents/Handleiding.md",
-    "04_Project/Documents/Planning.md",
-    "04_Project/Documents/PlanningAndTools.md",
-    "04_Project/The_MVP_Project/tests/unit/__init__.py",
-    "04_Project/The_MVP_Project/tests/unit/test_the_mvp_project_stack.py",
-    "04_Project/The_MVP_Project/tests/__init__.py",
-    "04_Project/The_MVP_Project/tests/unit",
-    "04_Project/The_MVP_Project/tests",
-    "04_Project/The_MVP_Project/source.bat",
-    "04_Project/The_MVP_Project/requirements.txt",
-    "04_Project/The_MVP_Project/requirements-dev.txt",
-    "04_Project/The_MVP_Project/cdk.json",
-    "04_Project/The_MVP_Project/app.py",
-    "04_Project/The_MVP_Project/README.md",
-    "04_Project/Documents/Project Info.md",
-    "04_Project/Documents/PRO-01 Cloud.md",
-    "04_Project/Documents/Ontwerp Documentatie.md",
-    "04_Project/Documents/Beslissing Documentatie.md",
-    "04_Project/Documents/Beslissing Documentatie 1.md",
-    "04_Project/Beslissing Documentatie v0.9.0.md",
-    "04_Project/Tijdslog/Dag 3 - Juni 7.md",
-    "04_Project/Project Info.md",
-    "04_Project/Planning.md",
-    "04_Project/Beslissing Documentatie.md",
-    "04_Project/PRO-01 Cloud.md",
-    "04_Project/PlanningAndTools.md",
-    "04_Project/Beslissing Documentatie 1.md",
-    "04_Project/Tijdslog/Dag 2 - Juni 6.md",
-    "04_Project/Tijdslog/Dag 1 - Juni 5.md",
-    "04_Project/Ontwerp Documentatie.md",
     "04_Project/img/AWS Architectuur Huidige Situatie.png",
     "Untitled.canvas",
     "Pasted image 20230522102952.png",

@@ -93,7 +93,7 @@ cd C:\Users\TechGrounds\Desktop\Cloud\AWS
 ```
 
 ```
-ssh -i "younestgaws.pem" ec2-user@ec2-52-57-79-59.eu-central-1.compute.amazonaws.com
+	ssh -i "younestgaws.pem" ec2-user@ec2-52-57-79-59.eu-central-1.compute.amazonaws.com
 ```
 
 Als alles goed werkt krijgt ik nu de welcome scherm van 'Amazon Linux 2 AMI'

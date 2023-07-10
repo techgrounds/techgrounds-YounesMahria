@@ -10,7 +10,13 @@
 Ga naar de 'Ternimal' van 'Visual Studio Code':  
 ```
 npm install -g aws-cdk
+pip install cryptography
 ```
+
+aws-cdk: Hierbij wordt de nieuwste release van cdk geinstalleerd.
+cryptography: Is een 3rd party tool die ervoor zorgt voor het aanmaken van RSA Keys bestanden. 
+
+**LET OP: zorg ervoor dat je alle key files in 'rsakeys' folder veilig bewaard en ze daarna weghaalt. Nooit de project folder commit naar de github met de key files.** 
 
 Maak en open de nieuwe map:  
 ```

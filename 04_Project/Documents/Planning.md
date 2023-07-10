@@ -28,11 +28,12 @@ tasks, how,
 - 7: Het maken van een Beslissing documentatie en Ontwerp Documentatie.
 
 ### 12 Juni - 18 Juni:
-16: Sprint 1 Review progressie app v1.0
+- 16: Sprint 1 Review progressie app v1.0
+- Verder met het coderen van resources
 
 
 ### 19 Juni - 25 Juni:
-
+- Verder met het coderen van resources
 
 ### 26 Juni - 2 Juli:
 - 27: App v1.0 afronden
