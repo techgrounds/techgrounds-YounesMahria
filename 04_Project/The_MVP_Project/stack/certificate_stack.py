@@ -67,7 +67,7 @@ class CertificateStack(cdk.Stack):
 
                 
         # Check if a server certificate with the desired name already exists
-        certificate_name = "mydomain"
+        certificate_name = "TechgroundsCloud10YM"
         iam_client = boto3.client('iam')
         response = iam_client.list_server_certificates()
         certificate_exists = False

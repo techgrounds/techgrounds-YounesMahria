@@ -2,8 +2,11 @@ import aws_cdk as cdk
 import boto3
 from botocore.exceptions import ClientError
 
+
+
 from aws_cdk import (
     aws_s3 as s3,
+    aws_s3_deployment as s3deploy
 )
 
 from stack._variables import (
@@ -27,8 +30,31 @@ class S3Stack(cdk.Stack):
                 bucket = s3.Bucket(
                     self,
                     "MVPTechgrounds2023YM",
-                    bucket_name=S3_BUCKETNAME
+                    bucket_name=S3_BUCKETNAME,
+                    encryption=s3.BucketEncryption.KMS,
+                    #auto_delete_objects=True,
+                    versioned=True,
                 )
                 print(f"\033[32mSuccessfully created: {S3_BUCKETNAME} stack\033[0m")
             else:
                 print(f"\033[31mAn unexpected error occurred: \n{str(e)}\033[0m")
+                
+            
+        """        
+        # Get a reference to an existing bucket by name
+        bucket = s3.Bucket.from_bucket_name(
+            self,
+            "MVPTechgrounds2023YM",
+            bucket_name=S3_BUCKETNAME
+        )
+
+        # Deploy a file to the bucket
+        s3deploy.BucketDeployment(self, 'DeployFile',
+            sources=[s3deploy.Source.asset('postdeployment/mysqlsampledatabase.zip')],
+            destination_bucket=bucket 
+        )
+        """
+        
+                                
+                
+ 

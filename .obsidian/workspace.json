@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_Project/Tijdslog/Dag 23 - Juli 10.md",
+                "file": "04_Project/Documents/Final/Tijdslog/Dag 25 - Juli 12.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_Project/Documents/Beslissing Documentatie v1.0.1.md",
+                "file": "04_Project/Documents/Old Drafs/Handleiding.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_Project/Tijdslog/Dag 19 - Juli 3.md",
+                "file": "04_Project/Documents/Old Drafs/Project Info.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_Project/Tijdslog/Dag 8 - Juni 14.md",
+                "file": "04_Project/Documents/Final/Tijdslog/Dag 8 - Juni 14.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,26 +61,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_Project/Documents/Planning.md",
+                "file": "04_Project/Documents/Old Drafs/PlanningAndTools.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4c169dc11573b8bb",
+            "id": "1e20c0dd27665b2f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Cloud_1/AWS-10 Virtual Private Cloud (VPC).md",
+                "file": "04_Project/Documents/Final/Planning.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04_Project/Documents/Beslissing Documentatie v1.0.1.md",
+                "file": "04_Project/Documents/Final/Tijdslog/Dag 8 - Juni 14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04_Project/Documents/Beslissing Documentatie v1.0.1.md",
+                "file": "04_Project/Documents/Final/Tijdslog/Dag 8 - Juni 14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_Project/Documents/Beslissing Documentatie v1.0.1.md"
+                "file": "04_Project/Documents/Final/Tijdslog/Dag 8 - Juni 14.md"
               }
             }
           }
@@ -215,44 +215,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "941c97bc91eb884c",
+  "active": "c3105f16932b4ed0",
   "lastOpenFiles": [
+    "04_Project/Documents/Old Drafs/Project Info.md",
+    "04_Project/Documents/Old Drafs/PRO-01 Cloud.md",
+    "04_Project/Documents/Old Drafs/PlanningAndTools.md",
+    "04_Project/Documents/Old Drafs/Handleiding.md",
+    "04_Project/Documents/Old Drafs/All Codes.md",
+    "04_Project/Documents/Final/Handleiding v1.1.md",
+    "04_Project/The_MVP_Project/cdk.out/read.17140.1.lock",
     "04_Project/The_MVP_Project/cdk.out/synth.lock",
-    "04_Project/The_MVP_Project/certificates/mydomain.crt",
-    "04_Project/The_MVP_Project/certificates/mydomain.csr",
-    "04_Project/The_MVP_Project/certificates/mydomain.key",
-    "04_Project/Documents/Ontwerp Documentatie v1.0.1.md",
-    "04_Project/Tijdslog/Dag 19 - Juli 3.md",
-    "04_Project/Tijdslog/Dag 23 - Juli 10.md",
-    "04_Project/Tijdslog/Dag 24 - Juli 11.md",
-    "04_Project/Tijdslog/Dag 22 - Juli 7.md",
-    "04_Project/The_MVP_Project/cdk.out/read.36564.1.lock",
-    "04_Project/The_MVP_Project/cdk.out/read.33352.1.lock",
-    "04_Project/The_MVP_Project/stack/combine_stack.py",
-    "04_Project/The_MVP_Project/stack/elasticip_stack.py",
-    "04_Project/The_MVP_Project/cdk.out/read.25108.1.lock",
-    "04_Project/The_MVP_Project/cdk.out/read.13172.1.lock",
-    "04_Project/The_MVP_Project/cdk.out/read.38812.1.lock",
-    "04_Project/Tijdslog/Dag 21 - Juli 6.md",
-    "04_Project/Tijdslog/Dag 20 - Juli 4.md",
-    "04_Project/Tijdslog/Dag 13 - Juni 21.md",
-    "04_Project/Tijdslog/Dag 8 - Juni 14.md",
-    "04_Project/The_MVP_Project v1.0/README.md",
-    "04_Project/The_MVP_Project v1.0/The_MVP_Project/README.md",
-    "04_Project/Documents/Beslissing Documentatie v1.0.1.md",
-    "04_Project/Documents/Ontwerp Documentatie v1.0.0.md",
-    "04_Project/Documents/Handleiding.md",
-    "04_Project/Documents/Beslissing Documentatie v1.0.0.md",
-    "04_Project/Documents/Beslissing Documentatie 1.md",
-    "04_Project/Tijdslog/Dag 18 - Juni 30.md",
-    "04_Project/Tijdslog/Dag 17 - Juni 29.md",
-    "04_Project/Tijdslog/Dag 14 - Juni 22.md",
-    "04_Project/Tijdslog/Dag 15 - Juni 26.md",
-    "04_Project/Tijdslog/Dag 16- Juni 27.md",
-    "04_Project/Tijdslog/Dag 16 - Juni 28.md",
+    "04_Project/The_MVP_Project/cdk.out/read.16584.1.lock",
+    "04_Project/Documents/Final/Tijdslog/Dag 32 - Juli 19.md",
+    "04_Project/Documents/Final/Tijdslog/Dag 28 - Juli 15.md",
+    "04_Project/Documents/Final/Tijdslog/Dag 29 - Juli 16.md",
+    "04_Project/Documents/Final/Tijdslog/Dag 30 - Juli 17.md",
+    "04_Project/Documents/Final/Tijdslog/Dag 31 - Juli 18.md",
+    "04_Project/Documents/Final/Planning.md",
+    "04_Project/Documents/Old Drafs/Ontwerp Documentatie v1.0.0.md",
+    "04_Project/Documents/Old Drafs/Beslissing Documentatie v1.0.0.md",
+    "04_Project/Documents/Final/Beslissing Documentatie v1.1.md",
+    "04_Project/Documents/Old Drafs",
+    "04_Project/Documents/Final/Ontwerp Documentatie v1.1.md",
+    "04_Project/Documents/Old Drafs/Ontwerp Documentatie v1.0.8.md",
+    "04_Project/img/AWS Architectuur Nieuwe Ontwerpv1.1.png",
+    "04_Project/The_MVP_Project/postdeployment/mysqlsampledatabase/mysqlsampledatabase.sql",
+    "04_Project/The_MVP_Project/postdeployment/mysqlsampledatabase",
+    "04_Project/The_MVP_Project/postdeployment/mysqlsampledatabase (2).zip",
+    "04_Project/Documents/Final/Tijdslog/Dag 19 - Juli 3.md",
+    "04_Project/The_MVP_Project/cdk.out/read.8748.1.lock",
+    "04_Project/Documents/Old Drafs/Beslissing Documentatie 1.md",
+    "02_Cloud_1/AWS-11 ELB Auto Scaling.md",
+    "04_Project/The_MVP_Project/cdk.out/read.12240.1.lock",
+    "04_Project/The_MVP_Project/userdata/lab-app/style.css",
+    "04_Project/The_MVP_Project/userdata/lab-app/img/AWS_logo_RGB.png",
+    "04_Project/The_MVP_Project/userdata/lab-app/fonts/glyphicons-halflings-regular.svg",
+    "02_Cloud_1/AWS-12 Well Architected Framework - kopie.md",
     "02_Cloud_1/AWS-10 Virtual Private Cloud (VPC).md",
-    "02_Cloud_1/AWS-07 Elastic Block Store (EBS).md",
-    "02_Cloud_1/AWS-06 Elastic Compute Cloud (EC2).md",
+    "04_Project/Documents/Final/Tijdslog/Dag 27 - Juli 14.md",
+    "04_Project/Documents/Final/Tijdslog/Dag 26 - Juli 13.md",
+    "04_Project/Documents/Final/Tijdslog/Dag 25 - Juli 12.md",
+    "04_Project/Documents/Final/Tijdslog/Dag 24 - Juli 11.md",
     "04_Project/img/AWS Architectuur Nieuwe Ontwerp.png",
     "04_Project/img/AWS Architectuur Nieuwe Ontwerp2.png",
     "04_Project/img/AWS Architectuur Huidige Situatie.png",
@@ -260,9 +263,6 @@
     "Pasted image 20230522102952.png",
     "Pasted image 20230517145858.png",
     "00_includes/ExamPrep/Image-6.jpg",
-    "00_includes/ExamPrep/AWS-X-006.png",
-    "00_includes/ExamPrep/AWS-X-005.png",
-    "00_includes/ExamPrep/AWS-X-004.png",
-    "00_includes/ExamPrep/AWS-X-003.png"
+    "00_includes/ExamPrep/AWS-X-006.png"
   ]
 }

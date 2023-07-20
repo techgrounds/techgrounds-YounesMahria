@@ -18,19 +18,19 @@ from aws_cdk import (
     App, CfnOutput, Duration, Stack, 
 )
 
+from .ami_stack import AMIStack
 from .s3_stack import S3Stack
 from .iam_stack import IAMStack
 from .ssh_stack import SSHStack
 from .certificate_stack import CertificateStack
 from .security_group_stack import SecurityGroupStack
-from .rds_stack import RdsStack, RdsReadReplicaStack
+from .rds_stack import RdsStack
 from .vpc_stack import VPCStack
 from .vpcpeerconnection_stack import VPCPeerConnectionStack
-from .route_tables_stack import RouteTablesStack
 from .ec2_stack import EC2InstanceStack
+from .lambda_stack import LambdaStack
 from .auto_scaling_group_stack import AutoScalingGroupStack
-from .elastic_load_balancer_stack import ElasticLoadBalancerStack
-from .aws_backup_plan import BackupPlanStack
+from .backup_plan import BackupPlanStack
 from constructs import Construct
 
 from stack._variables import (
@@ -67,12 +67,10 @@ class TheMvpProjectStack(cdk.Stack):
         # Dependent  stacks: 
         vpcpeerconnection_stack = VPCPeerConnectionStack(self, "VPCPeerConnectionStack", vpc_stack=vpc_stack)  # Creates VPC Peering, Reference needed: vpc_stack
         security_group_stack = SecurityGroupStack(self, "SecurityGroupStack",vpc_stack=vpc_stack) # Creates Security, Reference needed: vpc_stack
-        ec2_stack = EC2InstanceStack(self, "EC2InstanceStack", vpc_stack=vpc_stack, security_group_stack=security_group_stack, ssh_stack=ssh_stack, iam_stack=iam_stack) # Creates EC2 Instance, Reference needed: vpc_stack, security_group_stack
+        #ami_stack = AMIStack(self, "AMIStack", vpc_stack=vpc_stack, security_group_stack=security_group_stack, ssh_stack=ssh_stack, iam_stack=iam_stack) # Creates AMI from the EC2 Instance for Webserver later, No reference needed
+        rds_stack = RdsStack(self, "RdsStack", vpc_stack=vpc_stack, security_group_stack=security_group_stack) # Creates RDS, Reference needed: vpc_stack, security_group_stack
+        ec2_stack = EC2InstanceStack(self, "EC2InstanceStack", vpc_stack=vpc_stack, security_group_stack=security_group_stack, ssh_stack=ssh_stack, iam_stack=iam_stack) # Creates EC2 Instance, Reference needed: vpc_stack, security_group_stack        
+        auto_scaling_group_stack = AutoScalingGroupStack(self, "AutoScalingGroupStack", vpc_stack=vpc_stack, security_group_stack=security_group_stack, ec2_stack=ec2_stack, iam_stack=iam_stack, ssh_stack=ssh_stack, certificate_stack=certificate_stack) # Creates EC2 Instance, Reference needed: vpc_stack, security_group_stack
+        backup_plan_stack = BackupPlanStack(self, "BackupPlanStack", ec2_stack=ec2_stack)  # Creates AWS Backup Plan, Reference needed: ec2_stack
         
-        auto_scaling_group_stack = AutoScalingGroupStack(self, "AutoScalingGroupStack", vpc_stack=vpc_stack, security_group_stack=security_group_stack, ec2_stack=ec2_stack, iam_stack=iam_stack, ssh_stack=ssh_stack) # Creates EC2 Instance, Reference needed: vpc_stack, security_group_stack
-        elastic_load_balancer_stack = ElasticLoadBalancerStack(self, "ElasticLoadBalancerStack", vpc_stack=vpc_stack, security_group_stack=security_group_stack, ec2_stack=ec2_stack, iam_stack=iam_stack, certificate_stack=certificate_stack, auto_scaling_group_stack=auto_scaling_group_stack) # Creates EC2 Instance, Reference needed: vpc_stack, security_group_stack
         
-        #rds_stack = RdsStack(self, "RdsStack", vpc_stack=vpc_stack, security_group_stack=security_group_stack) # Creates RDS, Reference needed: vpc_stack, security_group_stack
-        #rds_read_replica_stack = RdsReadReplicaStack(self, 'RdsReadReplicaStack', vpc_stack=vpc_stack, rds_stack=rds_stack, security_group_stack=security_group_stack) # Create RDS Read Replica, Reference needed: rds_stack.rds_instance
-       
-

@@ -1,8 +1,13 @@
 import aws_cdk as cdk
+
+
+
 from aws_cdk import (
     aws_ec2 as ec2,
     aws_rds as rds,
 )
+
+
 from stack._variables import (
     CURRENT_MAX_AZS,
     VPC1_CIDR,
@@ -37,17 +42,46 @@ class VPCStack(cdk.Stack):
             ]
         )
         
+        """        
         # Create a VPC endpoint for Amazon S3 in VPC1
         s3_endpoint_app = app_prd_vpc.add_gateway_endpoint(
             "S3Endpoint",
             service=ec2.GatewayVpcEndpointAwsService.S3,
         )  
+        
+        
+        
+        # Add the RDS endpoint to the VPC configuration
+        rds_endpoint = app_prd_vpc.add_interface_endpoint(
+            "RDSEndpoint",
+            service=ec2.InterfaceVpcEndpointAwsService.RDS,
+            subnets=ec2.SubnetSelection(subnet_type=ec2.SubnetType.PRIVATE_ISOLATED)
+        )
+        """
+        
+        # Create a gateway endpoint for S3
+        s3_endpoint = ec2.GatewayVpcEndpoint(
+            self,
+            "S3Endpoint",
+            service=ec2.GatewayVpcEndpointAwsService.S3,
+            vpc=app_prd_vpc,
+        )
+
+        # Create an interface endpoint for S3
+        s3_interface_endpoint = ec2.InterfaceVpcEndpoint(
+            self,
+            "S3InterfaceEndpoint",
+            service=ec2.InterfaceVpcEndpointAwsService.S3,
+            vpc=app_prd_vpc,
+            subnets=ec2.SubnetSelection(subnet_type=ec2.SubnetType.PRIVATE_ISOLATED),
+            private_dns_enabled=False,
+        )
 
         # VPC2: Management Server VPC - Create
         management_prd_vpc = ec2.Vpc(self, 'ManagementServerVPC',
             vpc_name='management_prd_vpc',
             ip_addresses=ec2.IpAddresses.cidr(VPC2_CIDR),
-            nat_gateways=1,
+            nat_gateways=0,
             enable_dns_support=True,
             enable_dns_hostnames=True,
             #max_azs=CURRENT_MAX_AZS,
@@ -56,11 +90,6 @@ class VPCStack(cdk.Stack):
                 ec2.SubnetConfiguration(
                     name="management_prd_vpc_public",
                     subnet_type=ec2.SubnetType.PUBLIC,
-                    cidr_mask=SUBNET_SIZE,
-                ),
-                ec2.SubnetConfiguration(
-                    name="management_prd_vpc_private",
-                    subnet_type=ec2.SubnetType.PRIVATE_ISOLATED,
                     cidr_mask=SUBNET_SIZE,
                 ),
             ]
@@ -75,6 +104,8 @@ class VPCStack(cdk.Stack):
         self.app_prd_vpc = app_prd_vpc
         self.management_prd_vpc = management_prd_vpc
 
+
+        
 
         ## Tag name the vpc environment
         cdk.Tags.of(app_prd_vpc).add('Name', 'internet-gateway-app-prd-vpc', exclude_resource_types=['AWS::EC2::VPC'],include_resource_types=['AWS::EC2::InternetGateway'])

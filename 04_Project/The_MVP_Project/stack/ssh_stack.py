@@ -1,6 +1,8 @@
 import aws_cdk as cdk
 import boto3
 from botocore.exceptions import ClientError
+from tkinter import messagebox
+
 
 from aws_cdk import (
     aws_ec2 as ec2,
@@ -134,8 +136,8 @@ class SSHStack(cdk.Stack):
 
         self.ec2_management_prd_key = ec2_management_prd_key
         self.ec2_management_prd_key_pair = ec2_management_prd_key_pair
-          
-        """       
+        
+        """                
         # Display a warning message with "Yes" and "No" buttons
         response = messagebox.askyesno('Warning', 'The private key files have been created. Make sure to store them in a secure location. Click on \'No\' if you read this message.')
 
@@ -146,7 +148,7 @@ class SSHStack(cdk.Stack):
         else:
             # The user clicked "No"
             pass
-        """
+        """        
         
         """        
         # Create a NACL for the web server VPC

@@ -12,9 +12,7 @@ from aws_cdk import (
 )
 
 
-MYTESTIP = '0.0.0.0/32' #own ip for testing only
-
-
+# MYTESTIP = '0.0.0.0/32' #own ip for testing only
 
 
 CURRENT_MAX_AZS = 2
@@ -32,32 +30,44 @@ SUBNET_SIZE = 26 # Subnet size of the subnets in the Local Zone
 COOLDOWN_SECONDS = 60 # The amount is 60 secounds by default. You shouldn't change this unless you really want it by 1 second.
 COOLDOWN_MINUTES = 5 # The amount is 5 minute by default. Change this to increase it or decrease by minute,
 COOLDOWN = COOLDOWN_SECONDS*COOLDOWN_MINUTES # Cooldown is the total by multiply 60 seconds times times 5 minutes for 300 seconds.
-OFFICE_IPS = ["198.51.100.1/32", "203.0.113.1/32"]  # List of your office IP address
-HOME_IPS = ["198.51.100.1/32", "203.0.113.1/32", MYTESTIP] # List of your home IP addresses
+
+OFFICE_IPS = ["0.0.0.0/32"]  # List of your office IP address
+HOME_IPS = ["0.0.0.0/32"] # List of your home IP addresses
+# HOME_IPS = ["198.51.100.1/32", "203.0.113.1/32", MYTESTIP] # List of your home IP addresses
+
 OPEN_PORTS = [22,3389]  # Default: 22 and 3389 - List of ports to open connection. Unless you want less/more ports added and know what you are doing.
 S3_BUCKETNAME = 'mvp-techgrounds-2023-cloud-ym'
 
-# EC2 Instance - Global Type Selection
-AMAZ_INSTANCE_TYPE = 't2.micro'
+
+### Don't Change those values
+# EC2 Instance - Global
+AMAZ_INSTANCE_CLASS =ec2.InstanceClass.BURSTABLE3
+AMAZ_INSTANCE_SIZE = ec2.InstanceSize.MICRO
+AMAZ_INSTANCE_TYPE = ec2.InstanceType(str(AMAZ_INSTANCE_CLASS) + "," + str(AMAZ_INSTANCE_SIZE))
+
 
 # EC2 Instance - Linux Settings
+AMAZ_LINUX_INSTANCE_TYPE = ec2.InstanceType.of(ec2.InstanceClass.BURSTABLE3, ec2.InstanceSize.MICRO),
 AMAZ_LINUX_VERSION = ec2.MachineImage.latest_amazon_linux2
 AMAZ_LINUX_EDITION = ec2.AmazonLinuxEdition.STANDARD
 AMAZ_LINUX_VIRTUALIZATION = ec2.AmazonLinuxVirt.HVM
 AMAZ_LINUX_STORAGE = ec2.AmazonLinuxStorage.GENERAL_PURPOSE
 
-# EC2 Instance - Windows Server Settings
-AMAZ_WINDOWS_VERSION = ec2.MachineImage.latest_windows
-AMAZ_WINDOWS_EDITION = ec2.WindowsVersion.WINDOWS_SERVER_2019_ENGLISH_FULL_BASE
-
-
 # The Main Linux Machine Image Instance
-AMAZ_LINUX = AMAZ_LINUX_VERSION(edition=AMAZ_LINUX_EDITION,
+AMAZ_LINUX_MACHINE_TYPE = AMAZ_LINUX_VERSION(edition=AMAZ_LINUX_EDITION,
                                 virtualization=AMAZ_LINUX_VIRTUALIZATION,
                                 storage=AMAZ_LINUX_STORAGE)
-   
+
+AMI_NAME = "AMI_Webserver"
+
+# EC2 Instance - Windows Server Settings
+AMAZ_WINDOWS_VERSION = ec2.MachineImage.latest_windows
+AMAZ_WINDOWS_EDITION = ec2.WindowsVersion.WINDOWS_SERVER_2022_ENGLISH_FULL_BASE
+AMAZ_WINDOWS_INSTANCE_TYPE = ec2.InstanceType("t2.micro"),
+
+
 # The Main Windows Server Machine Image Instance     
-AMAZ_WINDOWS = AMAZ_WINDOWS_VERSION(
+AMAZ_WINDOWS_MACHINE_TYPE = AMAZ_WINDOWS_VERSION(
     version=AMAZ_WINDOWS_EDITION
 )
 
@@ -79,7 +89,15 @@ proxy_user_data_object = ec2.UserData.custom(proxy_user_data)
 
 PROXY_USER_DATA = proxy_user_data_object
 
-        
+# Read the contents of the user data file
+with open('userdata/management-server-user-data.sh', 'r') as file:
+    management_server_user_data = file.read()
+
+# Create a UserData object from the file contents
+management_server_user_data_object = ec2.UserData.custom(management_server_user_data)
+
+WINDOWS_USER_DATA = management_server_user_data_object
+
 
 """
   from stack._variables import (
